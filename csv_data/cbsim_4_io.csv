@@ -1,0 +1,673 @@
+SIM_ID;CBSIM;BOARD_NUMBER;MOSI_ADDRESS;BIT;CBSIM_SIGNAL;DESCRIPTION;IO_NAME;DIRECTION;BIT_MASK;INVERTED;DEFAULT;COMMENT;SEARCH_ID
+8000;CBSIM : 0;1;0x10108880;0;DIRECT_OUT_00;Digital Output;CBSD_RT01_SHORT;Output;1;No;False;None;1128
+8001;CBSIM : 0;1;0x10108880;1;DIRECT_OUT_01;Digital Output;CBSD_RT02_SHORT;Output;1;No;False;None;1129
+8002;CBSIM : 0;1;0x10108880;2;DIRECT_OUT_02;Digital Output;CBSD_RT03_SHORT;Output;1;No;False;None;1130
+8003;CBSIM : 0;1;0x10108880;3;DIRECT_OUT_03;Digital Output;CBSD_RT04_SHORT;Output;1;No;False;None;1131
+8004;CBSIM : 0;1;0x10108880;4;DIRECT_OUT_04;Digital Output;CBSD_RT05_SHORT;Output;1;No;False;None;1132
+8005;CBSIM : 0;1;0x10108880;5;DIRECT_OUT_05;Digital Output;CBSD_RT06_SHORT;Output;1;No;False;None;1133
+8006;CBSIM : 0;1;0x10108880;6;DIRECT_OUT_06;Digital Output;CBSD_RT07_SHORT;Output;1;No;False;None;1134
+8007;CBSIM : 0;1;0x10108880;7;DIRECT_OUT_07;Digital Output;CBSD_PX00_8V_SHORT;Output;1;No;False;None;1135
+8008;CBSIM : 0;1;0x10108880;8;DIRECT_OUT_08;Digital Output;CBSD_DTTH00_SHORT;Output;1;No;False;None;1136
+8009;CBSIM : 0;1;0x10108880;9;DIRECT_OUT_09;Digital Output;CBSD_DTTH01_SHORT;Output;1;No;False;None;1137
+8010;CBSIM : 0;1;0x10108880;10;DIRECT_OUT_10;Digital Output;RBSD_RT01_SHORT;Output;1;No;False;None;1138
+8011;CBSIM : 0;1;0x10108880;11;DIRECT_OUT_11;Digital Output;RBSD_RT02_SHORT;Output;1;No;False;None;1139
+8012;CBSIM : 0;1;0x10108880;12;DIRECT_OUT_12;Digital Output;RBSD_RT03_SHORT;Output;1;No;False;None;1140
+8013;CBSIM : 0;1;0x10108880;13;DIRECT_OUT_13;Digital Output;RBSD_28V5OV_SHORT;Output;1;No;False;None;1141
+8014;CBSIM : 0;1;0x10108880;14;DIRECT_OUT_14;Digital Output;None;Output;1;No;False;None;1142
+8015;CBSIM : 0;1;0x10108880;15;DIRECT_OUT_15;Digital Output;None;Output;1;No;False;None;1143
+8016;CBSIM : 0;1;0x10108884;0;PX_00;Detection / No detection;PXREF;Output;1;No;False;None;1076
+8017;CBSIM : 0;1;0x10108884;1;PX_SC_00;SC from supply to signal;PXREF_SC;Output;1;No;False;None;1076
+8018;CBSIM : 0;1;0x10108884;2;PX_BREAK_00;Break;PXREF_BREAK;Output;1;No;False;None;1076
+8019;CBSIM : 0;1;0x10108884;3;PX_GND_00;SC from supply to ground;PXREF_SUP_GND;Output;1;No;False;None;1076
+8020;CBSIM : 0;1;0x10108884;4;PX_01;Detection / No detection;PXWP;Output;1;No;False;None;1078
+8021;CBSIM : 0;1;0x10108884;5;PX_SC_01;SC from supply to signal;PXWP_SC;Output;1;No;False;None;1078
+8022;CBSIM : 0;1;0x10108884;6;PX_BREAK_01;OC signal;PWWP_BREAK;Output;1;No;False;None;1078
+8023;CBSIM : 0;1;0x10108884;7;PX_GND_01;SC from supply to ground;PXWP_SUP_GND;Output;1;No;False;None;1078
+8024;CBSIM : 0;1;0x10108884;8;Relais_00;Normal open contact;ES_EXT;Output;1;No;False;None;1092
+8025;CBSIM : 0;1;0x10108884;9;Relais_01;Normal open contact;WL1_BREAK;Output;1;No;False;None;1094
+8026;CBSIM : 0;1;0x10108884;10;Relais_02;Normal open contact;WL1_SC;Output;1;No;False;None;1104
+8027;CBSIM : 0;1;0x10108884;11;Relais_03;Normal open contact;WL2_BREAK;Output;1;No;False;None;1106
+8028;CBSIM : 0;1;0x10108884;12;Relais_04;Normal open contact;WL2_SC;Output;1;No;False;None;1110
+8029;CBSIM : 0;1;0x10108884;13;Relais_05;Normal open contact;ES3_12;Output;1;No;False;None;1108
+8030;CBSIM : 0;1;0x10108884;14;Relais_06;Normal open contact;ES3_22;Output;1;No;False;None;1122
+8031;CBSIM : 0;1;0x10108884;15;Relais_07;Normal open contact;PB_PWRON;Output;1;No;False;None;1120
+8032;CBSIM : 0;1;0x10108888;0;VS_SC_COIL_01;SC coil + to coil -;None;Output;1;No;False;None;1046
+8033;CBSIM : 0;1;0x10108888;1;VS_SC_A+_01;SC coil + to ground;None;Output;1;No;False;None;1046
+8034;CBSIM : 0;1;0x10108888;2;VS_SC_A-_01;None;None;Output;1;No;False;Not available anymore;1046
+8035;CBSIM : 0;1;0x10108888;3;VS_BREAK_01;Break;None;Output;1;No;False;None;1046
+8036;CBSIM : 0;1;0x10108888;4;V_SC_11;SC to ground;None;Output;1;No;False;None;1082
+8037;CBSIM : 0;1;0x10108888;5;V_BREAK_11;Break;Dummy;Output;1;No;False;No comment;1082
+8038;CBSIM : 0;1;0x10108888;6;V_SC_12;SC to ground;None;Output;1;No;False;None;1084
+8039;CBSIM : 0;1;0x10108888;7;V_BREAK_12;Break;None;Output;1;No;False;None;1084
+8040;CBSIM : 0;1;0x10108888;8;V_SC_13;SC to ground;None;Output;1;No;False;None;1086
+8041;CBSIM : 0;1;0x10108888;9;V_BREAK_13;Break;None;Output;1;No;False;None;1086
+8042;CBSIM : 0;1;0x10108888;10;V_SC_14;SC to ground;None;Output;1;No;False;None;1088
+8043;CBSIM : 0;1;0x10108888;11;V_BREAK_14;Break;None;Output;1;No;False;None;1088
+8044;CBSIM : 0;1;0x10108888;12;V_SC_15;SC to ground;None;Output;1;No;False;None;1090
+8045;CBSIM : 0;1;0x10108888;13;V_BREAK_15;Break;None;Output;1;No;False;None;1090
+8046;CBSIM : 0;1;0x10108888;14;V_SC_16;SC to ground;None;Output;1;No;False;None;1112
+8047;CBSIM : 0;1;0x10108888;15;V_BREAK_16;Break;None;Output;1;No;False;None;1112
+8048;CBSIM : 0;1;0x1010888C;0;V_SC_17;SC to ground;None;Output;1;No;False;None;1114
+8049;CBSIM : 0;1;0x1010888C;1;V_BREAK_17;Break;None;Output;1;No;False;None;1114
+8050;CBSIM : 0;1;0x1010888C;2;V_SC_18;SC to ground;None;Output;1;No;False;None;1116
+8051;CBSIM : 0;1;0x1010888C;3;V_BREAK_18;Break;None;Output;1;No;False;None;1116
+8052;CBSIM : 0;1;0x1010888C;4;V_SC_19;SC to ground;None;Output;1;No;False;None;1118
+8053;CBSIM : 0;1;0x1010888C;5;V_BREAK_19;Break;None;Output;1;No;False;None;1118
+8054;CBSIM : 0;1;0x1010888C;6;V_SC_20;SC to ground;None;Output;1;No;False;None;1124
+8055;CBSIM : 0;1;0x1010888C;7;V_BREAK_20;Break;None;Output;1;No;False;None;1124
+8056;CBSIM : 0;1;0x1010888C;8;V_SC_21;SC to ground;None;Output;1;No;False;None;1126
+8057;CBSIM : 0;1;0x1010888C;9;V_BREAK_21;Break;None;Output;1;No;False;None;1126
+8058;CBSIM : 0;1;0x1010888C;10;PX_02;Detection / No detection;None;Output;1;No;False;None;1056
+8059;CBSIM : 0;1;0x1010888C;11;PX_SC_02;SC from supply to signal;None;Output;1;No;False;None;1056
+8060;CBSIM : 0;1;0x1010888C;12;PX_BREAK_02;Break;None;Output;1;No;False;None;1056
+8061;CBSIM : 0;1;0x1010888C;13;PX_GND_02;SC from supply to ground;None;Output;1;No;False;None;1056
+8062;CBSIM : 0;1;0x1010888C;14;TP48;None;None;Output;1;No;False;None;0
+8063;CBSIM : 0;1;0x1010888C;15;TP49;None;None;Output;1;No;False;None;0
+8064;CBSIM : 0;1;0x10108890;0;V_SC_00;SC to ground;None;Output;1;No;False;None;1000
+8065;CBSIM : 0;1;0x10108890;1;V_BREAK_00;Break;None;Output;1;No;False;None;1000
+8066;CBSIM : 0;1;0x10108890;2;V_SC_01;SC to ground;None;Output;1;No;False;None;1002
+8067;CBSIM : 0;1;0x10108890;3;V_BREAK_01;Break;None;Output;1;No;False;None;1002
+8068;CBSIM : 0;1;0x10108890;4;V_SC_02;SC to ground;None;Output;1;No;False;None;1004
+8069;CBSIM : 0;1;0x10108890;5;V_BREAK_02;Break;None;Output;1;No;False;None;1004
+8070;CBSIM : 0;1;0x10108890;6;V_SC_03;SC to ground;None;Output;1;No;False;None;1006
+8071;CBSIM : 0;1;0x10108890;7;V_BREAK_03;Break;None;Output;1;No;False;None;1006
+8072;CBSIM : 0;1;0x10108890;8;V_SC_04;SC to ground;None;Output;1;No;False;None;1008
+8073;CBSIM : 0;1;0x10108890;9;V_BREAK_04;Break;None;Output;1;No;False;None;1008
+8074;CBSIM : 0;1;0x10108890;10;V_SC_05;SC to ground;None;Output;1;No;False;None;1010
+8075;CBSIM : 0;1;0x10108890;11;V_BREAK_05;Break;None;Output;1;No;False;None;1010
+8076;CBSIM : 0;1;0x10108890;12;V_SC_06;SC to ground;None;Output;1;No;False;None;1012
+8077;CBSIM : 0;1;0x10108890;13;V_BREAK_06;Break;None;Output;1;No;False;None;1012
+8078;CBSIM : 0;1;0x10108890;14;V_SC_07;SC to ground;None;Output;1;No;False;None;1014
+8079;CBSIM : 0;1;0x10108890;15;V_BREAK_07;Break;None;Output;1;No;False;None;1014
+8080;CBSIM : 0;1;0x10108894;0;V_SC_08;SC to ground;None;Output;1;No;False;None;1041
+8081;CBSIM : 0;1;0x10108894;1;V_BREAK_08;Break;None;Output;1;No;False;None;1041
+8082;CBSIM : 0;1;0x10108894;2;V_SC_09;SC to ground;None;Output;1;No;False;None;1043
+8083;CBSIM : 0;1;0x10108894;3;V_BREAK_09;Break;Dummy;Output;1;No;False;No comment;1043
+8084;CBSIM : 0;1;0x10108894;4;V_SC_10;SC to ground;None;Output;1;No;False;None;1045
+8085;CBSIM : 0;1;0x10108894;5;V_BREAK_10;Break;None;Output;1;No;False;None;1045
+8086;CBSIM : 0;1;0x10108894;6;VS_SC_COIL_00;SC coil + to coil -;None;Output;1;No;False;None;1046
+8087;CBSIM : 0;1;0x10108894;7;VS_SC_A+_00;SC coil + to ground;None;Output;1;No;False;None;1046
+8088;CBSIM : 0;1;0x10108894;8;VS_SC_A-_00;None;None;Output;1;No;False;Not available anymore;1046
+8089;CBSIM : 0;1;0x10108894;9;VS_BREAK_00;Break;None;Output;1;No;False;None;1046
+8090;CBSIM : 0;1;0x10108894;10;OC_OUT_00;Open collector;None;Output;1;No;False;None;1016
+8091;CBSIM : 0;1;0x10108894;11;OC_OUT_01;Open collector;None;Output;1;No;False;None;1017
+8092;CBSIM : 0;1;0x10108894;12;5V_OUT_00;5V output;None;Output;1;No;False;None;1018
+8093;CBSIM : 0;1;0x10108894;13;OUT_26V_00;26V output;SUP_5V_ON;Output;1;No;False;None;1019
+8094;CBSIM : 0;1;0x10108894;14;OUT_26V_01;26V output;SUP_26V_ON;Output;1;No;False;None;1020
+8095;CBSIM : 0;1;0x10108894;15;OUT_26V_02;26V output;SUP_48VAC_ON;Output;1;No;False;None;1021
+8096;CBSIM : 0;1;0x10108898;0;OUT_26V_03;26V output;None;Output;1;No;False;None;1022
+8097;CBSIM : 0;1;0x10108898;1;OUT_26V_04;26V output;None;Output;1;No;False;None;1023
+8098;CBSIM : 0;1;0x10108898;2;OUT_26V_05;26V output;None;Output;1;No;False;None;1024
+8099;CBSIM : 0;1;0x10108898;3;OUT_26V_06;26V output;None;Output;1;No;False;None;1025
+8100;CBSIM : 0;1;0x10108898;4;OUT_26V_07;26V output;None;Output;1;No;False;None;1026
+8101;CBSIM : 0;1;0x10108898;5;OUT_26V_08;26V output;None;Output;1;No;False;None;1027
+8102;CBSIM : 0;1;0x10108898;6;V_SC_22;SC to ground;None;Output;1;No;False;None;1038
+8103;CBSIM : 0;1;0x10108898;7;V_BREAK_22;Break;None;Output;1;No;False;None;1038
+8104;CBSIM : 0;1;0x10108898;8;Relais_08;Normal open contact;None;Output;1;No;False;None;1055
+8105;CBSIM : 0;1;0x10108898;9;NC;None;None;Idle;1;No;False;None;0
+8106;CBSIM : 0;1;0x10108898;10;NC;None;None;Idle;1;No;False;None;0
+8107;CBSIM : 0;1;0x10108898;11;NC;None;None;Idle;1;No;False;None;0
+8108;CBSIM : 0;1;0x10108898;12;NC;None;None;Idle;1;No;False;None;0
+8109;CBSIM : 0;1;0x10108898;13;NC;None;None;Idle;1;No;False;None;0
+8110;CBSIM : 0;1;0x10108898;14;NC;None;None;Idle;1;No;False;None;0
+8111;CBSIM : 0;1;0x10108898;15;NC;None;None;Idle;1;No;False;None;0
+8112;CBSIM : 1;2;0x10108900;0;DIRECT_OUT_00;Digital Output;Test;Output;1;No;False;None;1302
+8113;CBSIM : 1;2;0x10108900;1;DIRECT_OUT_01;Digital Output;None;Output;1;No;False;None;1303
+8114;CBSIM : 1;2;0x10108900;2;DIRECT_OUT_02;Digital Output;None;Output;1;No;False;None;1304
+8115;CBSIM : 1;2;0x10108900;3;DIRECT_OUT_03;Digital Output;None;Output;1;No;False;None;1305
+8116;CBSIM : 1;2;0x10108900;4;DIRECT_OUT_04;Digital Output;None;Output;1;No;False;None;1306
+8117;CBSIM : 1;2;0x10108900;5;DIRECT_OUT_05;Digital Output;None;Output;1;No;False;None;1307
+8118;CBSIM : 1;2;0x10108900;6;DIRECT_OUT_06;Digital Output;None;Output;1;No;False;None;1308
+8119;CBSIM : 1;2;0x10108900;7;DIRECT_OUT_07;Digital Output;None;Output;1;No;False;None;1309
+8120;CBSIM : 1;2;0x10108900;8;DIRECT_OUT_08;Digital Output;None;Output;1;No;False;None;1310
+8121;CBSIM : 1;2;0x10108900;9;DIRECT_OUT_09;Digital Output;None;Output;1;No;False;None;1311
+8122;CBSIM : 1;2;0x10108900;10;DIRECT_OUT_10;Digital Output;None;Output;1;No;False;None;1312
+8123;CBSIM : 1;2;0x10108900;11;DIRECT_OUT_11;Digital Output;None;Output;1;No;False;None;1313
+8124;CBSIM : 1;2;0x10108900;12;DIRECT_OUT_12;Digital Output;None;Output;1;No;False;None;1314
+8125;CBSIM : 1;2;0x10108900;13;DIRECT_OUT_13;Digital Output;None;Output;1;No;False;None;1315
+8126;CBSIM : 1;2;0x10108900;14;DIRECT_OUT_14;Digital Output;Test;Output;1;No;False;Test;1316
+8127;CBSIM : 1;2;0x10108900;15;DIRECT_OUT_15;Digital Output;None;Output;1;No;False;None;1317
+8128;CBSIM : 1;2;0x10108904;0;PX_00;Detection / No detection;None;Output;1;No;False;None;1250
+8129;CBSIM : 1;2;0x10108904;1;PX_SC_00;SC from supply to signal;None;Output;1;No;False;None;1250
+8130;CBSIM : 1;2;0x10108904;2;PX_BREAK_00;Break;None;Output;1;No;False;None;1250
+8131;CBSIM : 1;2;0x10108904;3;PX_GND_00;SC from supply to ground;None;Output;1;No;False;None;1250
+8132;CBSIM : 1;2;0x10108904;4;PX_01;Detection / No detection;None;Output;1;No;False;None;1252
+8133;CBSIM : 1;2;0x10108904;5;PX_SC_01;SC from supply to signal;None;Output;1;No;False;None;1252
+8134;CBSIM : 1;2;0x10108904;6;PX_BREAK_01;OC signal;None;Output;1;No;False;None;1252
+8135;CBSIM : 1;2;0x10108904;7;PX_GND_01;SC from supply to ground;None;Output;1;No;False;None;1252
+8136;CBSIM : 1;2;0x10108904;8;Relais_00;Normal open contact;None;Output;1;No;False;None;1266
+8137;CBSIM : 1;2;0x10108904;9;Relais_01;Normal open contact;None;Output;1;No;False;None;1268
+8138;CBSIM : 1;2;0x10108904;10;Relais_02;Normal open contact;None;Output;1;No;False;None;1278
+8139;CBSIM : 1;2;0x10108904;11;Relais_03;Normal open contact;None;Output;1;No;False;None;1280
+8140;CBSIM : 1;2;0x10108904;12;Relais_04;Normal open contact;None;Output;1;No;False;None;1284
+8141;CBSIM : 1;2;0x10108904;13;Relais_05;Normal open contact;None;Output;1;No;False;None;1282
+8142;CBSIM : 1;2;0x10108904;14;Relais_06;Normal open contact;None;Output;1;No;False;None;1296
+8143;CBSIM : 1;2;0x10108904;15;Relais_07;Normal open contact;None;Output;1;No;False;None;1294
+8144;CBSIM : 1;2;0x10108908;0;VS_SC_COIL_01;SC coil + to coil -;None;Output;1;No;False;None;1254
+8145;CBSIM : 1;2;0x10108908;1;VS_SC_A+_01;SC coil + to ground;None;Output;1;No;False;None;1254
+8146;CBSIM : 1;2;0x10108908;2;VS_SC_A-_01;None;None;Output;1;No;False;Not available anymore;1254
+8147;CBSIM : 1;2;0x10108908;3;VS_BREAK_01;Break;None;Output;1;No;False;None;1254
+8148;CBSIM : 1;2;0x10108908;4;V_SC_11;SC to ground;None;Output;1;No;False;None;1256
+8149;CBSIM : 1;2;0x10108908;5;V_BREAK_11;Break;None;Output;1;No;False;None;1256
+8150;CBSIM : 1;2;0x10108908;6;V_SC_12;SC to ground;None;Output;1;No;False;None;1258
+8151;CBSIM : 1;2;0x10108908;7;V_BREAK_12;Break;None;Output;1;No;False;None;1258
+8152;CBSIM : 1;2;0x10108908;8;V_SC_13;SC to ground;None;Output;1;No;False;None;1260
+8153;CBSIM : 1;2;0x10108908;9;V_BREAK_13;Break;None;Output;1;No;False;None;1260
+8154;CBSIM : 1;2;0x10108908;10;V_SC_14;SC to ground;None;Output;1;No;False;None;1262
+8155;CBSIM : 1;2;0x10108908;11;V_BREAK_14;Break;None;Output;1;No;False;None;1262
+8156;CBSIM : 1;2;0x10108908;12;V_SC_15;SC to ground;None;Output;1;No;False;None;1264
+8157;CBSIM : 1;2;0x10108908;13;V_BREAK_15;Break;None;Output;1;No;False;None;1264
+8158;CBSIM : 1;2;0x10108908;14;V_SC_16;SC to ground;None;Output;1;No;False;None;1286
+8159;CBSIM : 1;2;0x10108908;15;V_BREAK_16;Break;None;Output;1;No;False;None;1286
+8160;CBSIM : 1;2;0x1010890C;0;V_SC_17;SC to ground;None;Output;1;No;False;None;1288
+8161;CBSIM : 1;2;0x1010890C;1;V_BREAK_17;Break;None;Output;1;No;False;None;1288
+8162;CBSIM : 1;2;0x1010890C;2;V_SC_18;SC to ground;None;Output;1;No;False;None;1290
+8163;CBSIM : 1;2;0x1010890C;3;V_BREAK_18;Break;None;Output;1;No;False;None;1290
+8164;CBSIM : 1;2;0x1010890C;4;V_SC_19;SC to ground;None;Output;1;No;False;None;1292
+8165;CBSIM : 1;2;0x1010890C;5;V_BREAK_19;Break;None;Output;1;No;False;None;1292
+8166;CBSIM : 1;2;0x1010890C;6;V_SC_20;SC to ground;None;Output;1;No;False;None;1298
+8167;CBSIM : 1;2;0x1010890C;7;V_BREAK_20;Break;None;Output;1;No;False;None;1298
+8168;CBSIM : 1;2;0x1010890C;8;V_SC_21;SC to ground;None;Output;1;No;False;None;1300
+8169;CBSIM : 1;2;0x1010890C;9;V_BREAK_21;Break;None;Output;1;No;False;None;1300
+8170;CBSIM : 1;2;0x1010890C;10;PX_02;Detection / No detection;test;Output;1;No;False;None;1230
+8171;CBSIM : 1;2;0x1010890C;11;PX_SC_02;SC from supply to signal;None;Output;1;No;False;None;1230
+8172;CBSIM : 1;2;0x1010890C;12;PX_BREAK_02;Break;None;Output;1;No;False;None;1230
+8173;CBSIM : 1;2;0x1010890C;13;PX_GND_02;SC from supply to ground;None;Output;1;No;False;None;1230
+8174;CBSIM : 1;2;0x1010890C;14;TP48;None;None;Output;1;No;False;None;0
+8175;CBSIM : 1;2;0x1010890C;15;TP49;None;None;Output;1;No;False;None;0
+8176;CBSIM : 1;2;0x10108910;0;V_SC_00;SC to ground;None;Output;1;No;False;None;1174
+8177;CBSIM : 1;2;0x10108910;1;V_BREAK_00;Break;None;Output;1;No;False;None;1174
+8178;CBSIM : 1;2;0x10108910;2;V_SC_01;SC to ground;None;Output;1;No;False;None;1176
+8179;CBSIM : 1;2;0x10108910;3;V_BREAK_01;Break;None;Output;1;No;False;None;1176
+8180;CBSIM : 1;2;0x10108910;4;V_SC_02;SC to ground;None;Output;1;No;False;None;1178
+8181;CBSIM : 1;2;0x10108910;5;V_BREAK_02;Break;None;Output;1;No;False;None;1178
+8182;CBSIM : 1;2;0x10108910;6;V_SC_03;SC to ground;None;Output;1;No;False;None;1180
+8183;CBSIM : 1;2;0x10108910;7;V_BREAK_03;Break;None;Output;1;No;False;None;1180
+8184;CBSIM : 1;2;0x10108910;8;V_SC_04;SC to ground;None;Output;1;No;False;None;1182
+8185;CBSIM : 1;2;0x10108910;9;V_BREAK_04;Break;None;Output;1;No;False;None;1182
+8186;CBSIM : 1;2;0x10108910;10;V_SC_05;SC to ground;None;Output;1;No;False;None;1184
+8187;CBSIM : 1;2;0x10108910;11;V_BREAK_05;Break;None;Output;1;No;False;None;1184
+8188;CBSIM : 1;2;0x10108910;12;V_SC_06;SC to ground;None;Output;1;No;False;None;1186
+8189;CBSIM : 1;2;0x10108910;13;V_BREAK_06;Break;None;Output;1;No;False;None;1186
+8190;CBSIM : 1;2;0x10108910;14;V_SC_07;SC to ground;None;Output;1;No;False;None;1188
+8191;CBSIM : 1;2;0x10108910;15;V_BREAK_07;Break;None;Output;1;No;False;None;1188
+8192;CBSIM : 1;2;0x10108914;0;V_SC_08;SC to ground;None;Output;1;No;False;None;1215
+8193;CBSIM : 1;2;0x10108914;1;V_BREAK_08;Break;None;Output;1;No;False;None;1215
+8194;CBSIM : 1;2;0x10108914;2;V_SC_09;SC to ground;None;Output;1;No;False;None;1217
+8195;CBSIM : 1;2;0x10108914;3;V_BREAK_09;Break;None;Output;1;No;False;None;1217
+8196;CBSIM : 1;2;0x10108914;4;V_SC_10;SC to ground;None;Output;1;No;False;None;1219
+8197;CBSIM : 1;2;0x10108914;5;V_BREAK_10;Break;None;Output;1;No;False;None;1219
+8198;CBSIM : 1;2;0x10108914;6;VS_SC_COIL_00;SC coil + to coil -;None;Output;1;No;False;None;1220
+8199;CBSIM : 1;2;0x10108914;7;VS_SC_A+_00;SC coil + to ground;None;Output;1;No;False;None;1220
+8200;CBSIM : 1;2;0x10108914;8;VS_SC_A-_00;None;None;Output;1;No;False;Not available anymore;1220
+8201;CBSIM : 1;2;0x10108914;9;VS_BREAK_00;Break;None;Output;1;No;False;None;1220
+8202;CBSIM : 1;2;0x10108914;10;OC_OUT_00;Open collector;None;Output;1;No;False;None;1190
+8203;CBSIM : 1;2;0x10108914;11;OC_OUT_01;Open collector;None;Output;1;No;False;None;1191
+8204;CBSIM : 1;2;0x10108914;12;5V_OUT_00;5V output;None;Output;1;No;False;None;1192
+8205;CBSIM : 1;2;0x10108914;13;OUT_26V_00;26V output;None;Output;1;No;False;None;1193
+8206;CBSIM : 1;2;0x10108914;14;OUT_26V_01;26V output;None;Output;1;No;False;None;1194
+8207;CBSIM : 1;2;0x10108914;15;OUT_26V_02;26V output;None;Output;1;No;False;None;1195
+8208;CBSIM : 1;2;0x10108918;0;OUT_26V_03;26V output;None;Output;1;No;False;None;1196
+8209;CBSIM : 1;2;0x10108918;1;OUT_26V_04;26V output;None;Output;1;No;False;None;1197
+8210;CBSIM : 1;2;0x10108918;2;OUT_26V_05;26V output;None;Output;1;No;False;None;1198
+8211;CBSIM : 1;2;0x10108918;3;OUT_26V_06;26V output;None;Output;1;No;False;None;1199
+8212;CBSIM : 1;2;0x10108918;4;OUT_26V_07;26V output;None;Output;1;No;False;None;1200
+8213;CBSIM : 1;2;0x10108918;5;OUT_26V_08;26V output;None;Output;1;No;False;None;1201
+8214;CBSIM : 1;2;0x10108918;6;V_SC_22;SC to ground;None;Output;1;No;False;None;1212
+8215;CBSIM : 1;2;0x10108918;7;V_BREAK_22;Break;None;Output;1;No;False;None;1212
+8216;CBSIM : 1;2;0x10108918;8;Relais_08;Normal open contact;None;Output;1;No;False;None;1229
+8217;CBSIM : 1;2;0x10108918;9;NC;None;None;Idle;1;No;False;None;1229
+8218;CBSIM : 1;2;0x10108918;10;NC;None;None;Idle;1;No;False;None;0
+8219;CBSIM : 1;2;0x10108918;11;NC;None;None;Idle;1;No;False;None;0
+8220;CBSIM : 1;2;0x10108918;12;NC;None;None;Idle;1;No;False;None;0
+8221;CBSIM : 1;2;0x10108918;13;NC;None;None;Idle;1;No;False;None;0
+8222;CBSIM : 1;2;0x10108918;14;NC;None;None;Idle;1;No;False;None;0
+8223;CBSIM : 1;2;0x10108918;15;NC;None;None;Idle;1;No;False;None;0
+8224;CBSIM : 2;3;0x10108980;0;DIRECT_OUT_00;Digital Output;None;Output;1;No;False;None;1476
+8225;CBSIM : 2;3;0x10108980;1;DIRECT_OUT_01;Digital Output;None;Output;1;No;False;None;1477
+8226;CBSIM : 2;3;0x10108980;2;DIRECT_OUT_02;Digital Output;None;Output;1;No;False;None;1478
+8227;CBSIM : 2;3;0x10108980;3;DIRECT_OUT_03;Digital Output;None;Output;1;No;False;None;1479
+8228;CBSIM : 2;3;0x10108980;4;DIRECT_OUT_04;Digital Output;None;Output;1;No;False;None;1480
+8229;CBSIM : 2;3;0x10108980;5;DIRECT_OUT_05;Digital Output;None;Output;1;No;False;None;1481
+8230;CBSIM : 2;3;0x10108980;6;DIRECT_OUT_06;Digital Output;None;Output;1;No;False;None;1482
+8231;CBSIM : 2;3;0x10108980;7;DIRECT_OUT_07;Digital Output;None;Output;1;No;False;None;1483
+8232;CBSIM : 2;3;0x10108980;8;DIRECT_OUT_08;Digital Output;None;Output;1;No;False;None;1484
+8233;CBSIM : 2;3;0x10108980;9;DIRECT_OUT_09;Digital Output;None;Output;1;No;False;None;1485
+8234;CBSIM : 2;3;0x10108980;10;DIRECT_OUT_10;Digital Output;None;Output;1;No;False;None;1486
+8235;CBSIM : 2;3;0x10108980;11;DIRECT_OUT_11;Digital Output;None;Output;1;No;False;None;1487
+8236;CBSIM : 2;3;0x10108980;12;DIRECT_OUT_12;Digital Output;None;Output;1;No;False;None;1488
+8237;CBSIM : 2;3;0x10108980;13;DIRECT_OUT_13;Digital Output;None;Output;1;No;False;None;1489
+8238;CBSIM : 2;3;0x10108980;14;DIRECT_OUT_14;Digital Output;None;Output;1;No;False;None;1490
+8239;CBSIM : 2;3;0x10108980;15;DIRECT_OUT_15;Digital Output;None;Output;1;No;False;None;1491
+8240;CBSIM : 2;3;0x10108984;0;PX_00;Detection / No detection;None;Output;1;No;False;None;1424
+8241;CBSIM : 2;3;0x10108984;1;PX_SC_00;SC from supply to signal;None;Output;1;No;False;None;1424
+8242;CBSIM : 2;3;0x10108984;2;PX_BREAK_00;Break;None;Output;1;No;False;None;1424
+8243;CBSIM : 2;3;0x10108984;3;PX_GND_00;SC from supply to ground;None;Output;1;No;False;None;1424
+8244;CBSIM : 2;3;0x10108984;4;PX_01;Detection / No detection;None;Output;1;No;False;None;1426
+8245;CBSIM : 2;3;0x10108984;5;PX_SC_01;SC from supply to signal;None;Output;1;No;False;None;1426
+8246;CBSIM : 2;3;0x10108984;6;PX_BREAK_01;OC signal;None;Output;1;No;False;None;1426
+8247;CBSIM : 2;3;0x10108984;7;PX_GND_01;SC from supply to ground;None;Output;1;No;False;None;1426
+8248;CBSIM : 2;3;0x10108984;8;Relais_00;Normal open contact;None;Output;1;No;False;None;1440
+8249;CBSIM : 2;3;0x10108984;9;Relais_01;Normal open contact;None;Output;1;No;False;None;1442
+8250;CBSIM : 2;3;0x10108984;10;Relais_02;Normal open contact;None;Output;1;No;False;None;1452
+8251;CBSIM : 2;3;0x10108984;11;Relais_03;Normal open contact;None;Output;1;No;False;None;1454
+8252;CBSIM : 2;3;0x10108984;12;Relais_04;Normal open contact;None;Output;1;No;False;None;1458
+8253;CBSIM : 2;3;0x10108984;13;Relais_05;Normal open contact;None;Output;1;No;False;None;1456
+8254;CBSIM : 2;3;0x10108984;14;Relais_06;Normal open contact;None;Output;1;No;False;None;1470
+8255;CBSIM : 2;3;0x10108984;15;Relais_07;Normal open contact;None;Output;1;No;False;None;1468
+8256;CBSIM : 2;3;0x10108988;0;VS_SC_COIL_01;SC coil + to coil -;None;Output;1;No;False;None;1394
+8257;CBSIM : 2;3;0x10108988;1;VS_SC_A+_01;SC coil + to ground;None;Output;1;No;False;None;1394
+8258;CBSIM : 2;3;0x10108988;2;VS_SC_A-_01;None;None;Output;1;No;False;Not available anymore;1394
+8259;CBSIM : 2;3;0x10108988;3;VS_BREAK_01;Break;None;Output;1;No;False;None;1394
+8260;CBSIM : 2;3;0x10108988;4;V_SC_11;SC to ground;None;Output;1;No;False;None;1430
+8261;CBSIM : 2;3;0x10108988;5;V_BREAK_11;Break;None;Output;1;No;False;None;1430
+8262;CBSIM : 2;3;0x10108988;6;V_SC_12;SC to ground;None;Output;1;No;False;None;1432
+8263;CBSIM : 2;3;0x10108988;7;V_BREAK_12;Break;None;Output;1;No;False;None;1432
+8264;CBSIM : 2;3;0x10108988;8;V_SC_13;SC to ground;None;Output;1;No;False;None;1434
+8265;CBSIM : 2;3;0x10108988;9;V_BREAK_13;Break;None;Output;1;No;False;None;1434
+8266;CBSIM : 2;3;0x10108988;10;V_SC_14;SC to ground;None;Output;1;No;False;None;1436
+8267;CBSIM : 2;3;0x10108988;11;V_BREAK_14;Break;None;Output;1;No;False;None;1436
+8268;CBSIM : 2;3;0x10108988;12;V_SC_15;SC to ground;None;Output;1;No;False;None;1438
+8269;CBSIM : 2;3;0x10108988;13;V_BREAK_15;Break;None;Output;1;No;False;None;1438
+8270;CBSIM : 2;3;0x10108988;14;V_SC_16;SC to ground;None;Output;1;No;False;None;1460
+8271;CBSIM : 2;3;0x10108988;15;V_BREAK_16;Break;None;Output;1;No;False;None;1460
+8272;CBSIM : 2;3;0x1010898C;0;V_SC_17;SC to ground;None;Output;1;No;False;None;1462
+8273;CBSIM : 2;3;0x1010898C;1;V_BREAK_17;Break;None;Output;1;No;False;None;1462
+8274;CBSIM : 2;3;0x1010898C;2;V_SC_18;SC to ground;None;Output;1;No;False;None;1464
+8275;CBSIM : 2;3;0x1010898C;3;V_BREAK_18;Break;None;Output;1;No;False;None;1464
+8276;CBSIM : 2;3;0x1010898C;4;V_SC_19;SC to ground;None;Output;1;No;False;None;1466
+8277;CBSIM : 2;3;0x1010898C;5;V_BREAK_19;Break;None;Output;1;No;False;None;1466
+8278;CBSIM : 2;3;0x1010898C;6;V_SC_20;SC to ground;None;Output;1;No;False;None;1472
+8279;CBSIM : 2;3;0x1010898C;7;V_BREAK_20;Break;None;Output;1;No;False;None;1472
+8280;CBSIM : 2;3;0x1010898C;8;V_SC_21;SC to ground;None;Output;1;No;False;None;1474
+8281;CBSIM : 2;3;0x1010898C;9;V_BREAK_21;Break;None;Output;1;No;False;None;1474
+8282;CBSIM : 2;3;0x1010898C;10;PX_02;Detection / No detection;None;Output;1;No;False;None;1404
+8283;CBSIM : 2;3;0x1010898C;11;PX_SC_02;SC from supply to signal;None;Output;1;No;False;None;1404
+8284;CBSIM : 2;3;0x1010898C;12;PX_BREAK_02;Break;None;Output;1;No;False;None;1404
+8285;CBSIM : 2;3;0x1010898C;13;PX_GND_02;SC from supply to ground;None;Output;1;No;False;None;1404
+8286;CBSIM : 2;3;0x1010898C;14;TP48;None;None;Output;1;No;False;None;0
+8287;CBSIM : 2;3;0x1010898C;15;TP49;None;None;Output;1;No;False;None;0
+8288;CBSIM : 2;3;0x10108990;0;V_SC_00;SC to ground;None;Output;1;No;False;None;1348
+8289;CBSIM : 2;3;0x10108990;1;V_BREAK_00;Break;None;Output;1;No;False;None;1348
+8290;CBSIM : 2;3;0x10108990;2;V_SC_01;SC to ground;None;Output;1;No;False;None;1350
+8291;CBSIM : 2;3;0x10108990;3;V_BREAK_01;Break;None;Output;1;No;False;None;1350
+8292;CBSIM : 2;3;0x10108990;4;V_SC_02;SC to ground;None;Output;1;No;False;None;1352
+8293;CBSIM : 2;3;0x10108990;5;V_BREAK_02;Break;None;Output;1;No;False;None;1352
+8294;CBSIM : 2;3;0x10108990;6;V_SC_03;SC to ground;None;Output;1;No;False;None;1354
+8295;CBSIM : 2;3;0x10108990;7;V_BREAK_03;Break;None;Output;1;No;False;None;1354
+8296;CBSIM : 2;3;0x10108990;8;V_SC_04;SC to ground;None;Output;1;No;False;None;1356
+8297;CBSIM : 2;3;0x10108990;9;V_BREAK_04;Break;None;Output;1;No;False;None;1356
+8298;CBSIM : 2;3;0x10108990;10;V_SC_05;SC to ground;None;Output;1;No;False;None;1358
+8299;CBSIM : 2;3;0x10108990;11;V_BREAK_05;Break;None;Output;1;No;False;None;1358
+8300;CBSIM : 2;3;0x10108990;12;V_SC_06;SC to ground;None;Output;1;No;False;None;1360
+8301;CBSIM : 2;3;0x10108990;13;V_BREAK_06;Break;None;Output;1;No;False;None;1360
+8302;CBSIM : 2;3;0x10108990;14;V_SC_07;SC to ground;None;Output;1;No;False;None;1362
+8303;CBSIM : 2;3;0x10108990;15;V_BREAK_07;Break;None;Output;1;No;False;None;1362
+8304;CBSIM : 2;3;0x10108994;0;V_SC_08;SC to ground;None;Output;1;No;False;None;1389
+8305;CBSIM : 2;3;0x10108994;1;V_BREAK_08;Break;None;Output;1;No;False;None;1389
+8306;CBSIM : 2;3;0x10108994;2;V_SC_09;SC to ground;None;Output;1;No;False;None;1391
+8307;CBSIM : 2;3;0x10108994;3;V_BREAK_09;Break;None;Output;1;No;False;None;1391
+8308;CBSIM : 2;3;0x10108994;4;V_SC_10;SC to ground;None;Output;1;No;False;None;1393
+8309;CBSIM : 2;3;0x10108994;5;V_BREAK_10;Break;None;Output;1;No;False;None;1393
+8310;CBSIM : 2;3;0x10108994;6;VS_SC_COIL_00;SC coil + to coil -;None;Output;1;No;False;None;1394
+8311;CBSIM : 2;3;0x10108994;7;VS_SC_A+_00;SC coil + to ground;None;Output;1;No;False;None;1394
+8312;CBSIM : 2;3;0x10108994;8;VS_SC_A-_00;None;None;Output;1;No;False;Not available anymore;1394
+8313;CBSIM : 2;3;0x10108994;9;VS_BREAK_00;Break;None;Output;1;No;False;None;1394
+8314;CBSIM : 2;3;0x10108994;10;OC_OUT_00;Open collector;None;Output;1;No;False;None;1364
+8315;CBSIM : 2;3;0x10108994;11;OC_OUT_01;Open collector;None;Output;1;No;False;None;1365
+8316;CBSIM : 2;3;0x10108994;12;5V_OUT_00;5V output;None;Output;1;No;False;None;1366
+8317;CBSIM : 2;3;0x10108994;13;OUT_26V_00;26V output;None;Output;1;No;False;None;1367
+8318;CBSIM : 2;3;0x10108994;14;OUT_26V_01;26V output;None;Output;1;No;False;None;1368
+8319;CBSIM : 2;3;0x10108994;15;OUT_26V_02;26V output;None;Output;1;No;False;None;1369
+8320;CBSIM : 2;3;0x10108998;0;OUT_26V_03;26V output;None;Output;1;No;False;None;1370
+8321;CBSIM : 2;3;0x10108998;1;OUT_26V_04;26V output;None;Output;1;No;False;None;1371
+8322;CBSIM : 2;3;0x10108998;2;OUT_26V_05;26V output;None;Output;1;No;False;None;1372
+8323;CBSIM : 2;3;0x10108998;3;OUT_26V_06;26V output;None;Output;1;No;False;None;1373
+8324;CBSIM : 2;3;0x10108998;4;OUT_26V_07;26V output;None;Output;1;No;False;None;1374
+8325;CBSIM : 2;3;0x10108998;5;OUT_26V_08;26V output;None;Output;1;No;False;None;1375
+8326;CBSIM : 2;3;0x10108998;6;V_SC_22;SC to ground;None;Output;1;No;False;None;1386
+8327;CBSIM : 2;3;0x10108998;7;V_BREAK_22;Break;None;Output;1;No;False;None;1386
+8328;CBSIM : 2;3;0x10108998;8;Relais_08;Normal open contact;None;Output;1;No;False;None;1403
+8329;CBSIM : 2;3;0x10108998;9;NC;None;None;Idle;1;No;False;None;0
+8330;CBSIM : 2;3;0x10108998;10;NC;None;None;Idle;1;No;False;None;0
+8331;CBSIM : 2;3;0x10108998;11;NC;None;None;Idle;1;No;False;None;0
+8332;CBSIM : 2;3;0x10108998;12;NC;None;None;Idle;1;No;False;None;0
+8333;CBSIM : 2;3;0x10108998;13;NC;None;None;Idle;1;No;False;None;0
+8334;CBSIM : 2;3;0x10108998;14;NC;None;None;Idle;1;No;False;None;0
+8335;CBSIM : 2;3;0x10108998;15;NC;None;None;Idle;1;No;False;None;0
+8336;CBSIM : 3;4;0x10108A00;0;DIRECT_OUT_00;Digital Output;None;Output;1;No;False;None;1650
+8337;CBSIM : 3;4;0x10108A00;1;DIRECT_OUT_01;Digital Output;None;Output;1;No;False;None;1651
+8338;CBSIM : 3;4;0x10108A00;2;DIRECT_OUT_02;Digital Output;None;Output;1;No;False;None;1652
+8339;CBSIM : 3;4;0x10108A00;3;DIRECT_OUT_03;Digital Output;None;Output;1;No;False;None;1653
+8340;CBSIM : 3;4;0x10108A00;4;DIRECT_OUT_04;Digital Output;None;Output;1;No;False;None;1654
+8341;CBSIM : 3;4;0x10108A00;5;DIRECT_OUT_05;Digital Output;None;Output;1;No;False;None;1655
+8342;CBSIM : 3;4;0x10108A00;6;DIRECT_OUT_06;Digital Output;None;Output;1;No;False;None;1656
+8343;CBSIM : 3;4;0x10108A00;7;DIRECT_OUT_07;Digital Output;None;Output;1;No;False;None;1657
+8344;CBSIM : 3;4;0x10108A00;8;DIRECT_OUT_08;Digital Output;None;Output;1;No;False;None;1658
+8345;CBSIM : 3;4;0x10108A00;9;DIRECT_OUT_09;Digital Output;None;Output;1;No;False;None;1659
+8346;CBSIM : 3;4;0x10108A00;10;DIRECT_OUT_10;Digital Output;None;Output;1;No;False;None;1660
+8347;CBSIM : 3;4;0x10108A00;11;DIRECT_OUT_11;Digital Output;None;Output;1;No;False;None;1661
+8348;CBSIM : 3;4;0x10108A00;12;DIRECT_OUT_12;Digital Output;None;Output;1;No;False;None;1662
+8349;CBSIM : 3;4;0x10108A00;13;DIRECT_OUT_13;Digital Output;None;Output;1;No;False;None;1663
+8350;CBSIM : 3;4;0x10108A00;14;DIRECT_OUT_14;Digital Output;None;Output;1;No;False;None;1664
+8351;CBSIM : 3;4;0x10108A00;15;DIRECT_OUT_15;Digital Output;None;Output;1;No;False;None;1665
+8352;CBSIM : 3;4;0x10108A04;0;PX_00;Detection / No detection;None;Output;1;No;False;None;1598
+8353;CBSIM : 3;4;0x10108A04;1;PX_SC_00;SC from supply to signal;None;Output;1;No;False;None;1598
+8354;CBSIM : 3;4;0x10108A04;2;PX_BREAK_00;Break;None;Output;1;No;False;None;1598
+8355;CBSIM : 3;4;0x10108A04;3;PX_GND_00;SC from supply to ground;None;Output;1;No;False;None;1598
+8356;CBSIM : 3;4;0x10108A04;4;PX_01;Detection / No detection;None;Output;1;No;False;None;1600
+8357;CBSIM : 3;4;0x10108A04;5;PX_SC_01;SC from supply to signal;None;Output;1;No;False;None;1600
+8358;CBSIM : 3;4;0x10108A04;6;PX_BREAK_01;OC signal;None;Output;1;No;False;None;1600
+8359;CBSIM : 3;4;0x10108A04;7;PX_GND_01;SC from supply to ground;None;Output;1;No;False;None;1600
+8360;CBSIM : 3;4;0x10108A04;8;Relais_00;Normal open contact;None;Output;1;No;False;None;1614
+8361;CBSIM : 3;4;0x10108A04;9;Relais_01;Normal open contact;None;Output;1;No;False;None;1616
+8362;CBSIM : 3;4;0x10108A04;10;Relais_02;Normal open contact;None;Output;1;No;False;None;1626
+8363;CBSIM : 3;4;0x10108A04;11;Relais_03;Normal open contact;None;Output;1;No;False;None;1628
+8364;CBSIM : 3;4;0x10108A04;12;Relais_04;Normal open contact;None;Output;1;No;False;None;1632
+8365;CBSIM : 3;4;0x10108A04;13;Relais_05;Normal open contact;None;Output;1;No;False;None;1630
+8366;CBSIM : 3;4;0x10108A04;14;Relais_06;Normal open contact;None;Output;1;No;False;None;1644
+8367;CBSIM : 3;4;0x10108A04;15;Relais_07;Normal open contact;None;Output;1;No;False;None;1642
+8368;CBSIM : 3;4;0x10108A08;0;VS_SC_COIL_01;SC coil + to coil -;None;Output;1;No;False;None;1602
+8369;CBSIM : 3;4;0x10108A08;1;VS_SC_A+_01;SC coil + to ground;None;Output;1;No;False;None;1602
+8370;CBSIM : 3;4;0x10108A08;2;VS_SC_A-_01;None;None;Output;1;No;False;Not available anymore;1602
+8371;CBSIM : 3;4;0x10108A08;3;VS_BREAK_01;Break;None;Output;1;No;False;None;1602
+8372;CBSIM : 3;4;0x10108A08;4;V_SC_11;SC to ground;QS2_SC;Output;1;No;False;None;1604
+8373;CBSIM : 3;4;0x10108A08;5;V_BREAK_11;Break;QS2_BREAK;Output;1;No;False;None;1604
+8374;CBSIM : 3;4;0x10108A08;6;V_SC_12;SC to ground;None;Output;1;No;False;None;1606
+8375;CBSIM : 3;4;0x10108A08;7;V_BREAK_12;Break;None;Output;1;No;False;None;1606
+8376;CBSIM : 3;4;0x10108A08;8;V_SC_13;SC to ground;QS3_SC;Output;1;No;False;None;1608
+8377;CBSIM : 3;4;0x10108A08;9;V_BREAK_13;Break;QS3_BREAK;Output;1;No;False;None;1608
+8378;CBSIM : 3;4;0x10108A08;10;V_SC_14;SC to ground;None;Output;1;No;False;None;1610
+8379;CBSIM : 3;4;0x10108A08;11;V_BREAK_14;Break;None;Output;1;No;False;None;1610
+8380;CBSIM : 3;4;0x10108A08;12;V_SC_15;SC to ground;None;Output;1;No;False;None;1612
+8381;CBSIM : 3;4;0x10108A08;13;V_BREAK_15;Break;None;Output;1;No;False;None;1612
+8382;CBSIM : 3;4;0x10108A08;14;V_SC_16;SC to ground;QS4_SC;Output;1;No;False;None;1634
+8383;CBSIM : 3;4;0x10108A08;15;V_BREAK_16;Break;QS4_BREAK;Output;1;No;False;None;1634
+8384;CBSIM : 3;4;0x10108A0C;0;V_SC_17;SC to ground;None;Output;1;No;False;None;1636
+8385;CBSIM : 3;4;0x10108A0C;1;V_BREAK_17;Break;None;Output;1;No;False;None;1636
+8386;CBSIM : 3;4;0x10108A0C;2;V_SC_18;SC to ground;None;Output;1;No;False;None;1638
+8387;CBSIM : 3;4;0x10108A0C;3;V_BREAK_18;Break;None;Output;1;No;False;None;1638
+8388;CBSIM : 3;4;0x10108A0C;4;V_SC_19;SC to ground;None;Output;1;No;False;None;1640
+8389;CBSIM : 3;4;0x10108A0C;5;V_BREAK_19;Break;None;Output;1;No;False;None;1640
+8390;CBSIM : 3;4;0x10108A0C;6;V_SC_20;SC to ground;None;Output;1;No;False;None;1646
+8391;CBSIM : 3;4;0x10108A0C;7;V_BREAK_20;Break;None;Output;1;No;False;None;1646
+8392;CBSIM : 3;4;0x10108A0C;8;V_SC_21;SC to ground;None;Output;1;No;False;None;1648
+8393;CBSIM : 3;4;0x10108A0C;9;V_BREAK_21;Break;None;Output;1;No;False;None;1648
+8394;CBSIM : 3;4;0x10108A0C;10;PX_02;Detection / No detection;None;Output;1;No;False;None;1578
+8395;CBSIM : 3;4;0x10108A0C;11;PX_SC_02;SC from supply to signal;None;Output;1;No;False;None;1578
+8396;CBSIM : 3;4;0x10108A0C;12;PX_BREAK_02;Break;None;Output;1;No;False;None;1578
+8397;CBSIM : 3;4;0x10108A0C;13;PX_GND_02;SC from supply to ground;None;Output;1;No;False;None;1578
+8398;CBSIM : 3;4;0x10108A0C;14;TP48;None;None;Output;1;No;False;None;0
+8399;CBSIM : 3;4;0x10108A0C;15;TP49;None;None;Output;1;No;False;None;0
+8400;CBSIM : 3;4;0x10108A10;0;V_SC_00;SC to ground;None;Output;1;No;False;None;1522
+8401;CBSIM : 3;4;0x10108A10;1;V_BREAK_00;Break;None;Output;1;No;False;None;1522
+8402;CBSIM : 3;4;0x10108A10;2;V_SC_01;SC to ground;None;Output;1;No;False;None;1524
+8403;CBSIM : 3;4;0x10108A10;3;V_BREAK_01;Break;None;Output;1;No;False;None;1524
+8404;CBSIM : 3;4;0x10108A10;4;V_SC_02;SC to ground;None;Output;1;No;False;None;1526
+8405;CBSIM : 3;4;0x10108A10;5;V_BREAK_02;Break;None;Output;1;No;False;None;1526
+8406;CBSIM : 3;4;0x10108A10;6;V_SC_03;SC to ground;None;Output;1;No;False;None;1528
+8407;CBSIM : 3;4;0x10108A10;7;V_BREAK_03;Break;None;Output;1;No;False;None;1528
+8408;CBSIM : 3;4;0x10108A10;8;V_SC_04;SC to ground;None;Output;1;No;False;None;1530
+8409;CBSIM : 3;4;0x10108A10;9;V_BREAK_04;Break;None;Output;1;No;False;None;1530
+8410;CBSIM : 3;4;0x10108A10;10;V_SC_05;SC to ground;None;Output;1;No;False;None;1532
+8411;CBSIM : 3;4;0x10108A10;11;V_BREAK_05;Break;None;Output;1;No;False;None;1532
+8412;CBSIM : 3;4;0x10108A10;12;V_SC_06;SC to ground;None;Output;1;No;False;None;1534
+8413;CBSIM : 3;4;0x10108A10;13;V_BREAK_06;Break;None;Output;1;No;False;None;1534
+8414;CBSIM : 3;4;0x10108A10;14;V_SC_07;SC to ground;None;Output;1;No;False;None;1536
+8415;CBSIM : 3;4;0x10108A10;15;V_BREAK_07;Break;None;Output;1;No;False;None;1536
+8416;CBSIM : 3;4;0x10108A14;0;V_SC_08;SC to ground;None;Output;1;No;False;None;1563
+8417;CBSIM : 3;4;0x10108A14;1;V_BREAK_08;Break;None;Output;1;No;False;None;1563
+8418;CBSIM : 3;4;0x10108A14;2;V_SC_09;SC to ground;None;Output;1;No;False;None;1565
+8419;CBSIM : 3;4;0x10108A14;3;V_BREAK_09;Break;None;Output;1;No;False;None;1565
+8420;CBSIM : 3;4;0x10108A14;4;V_SC_10;SC to ground;QS1_SC;Output;1;No;False;None;1567
+8421;CBSIM : 3;4;0x10108A14;5;V_BREAK_10;Break;QS1_BREAK;Output;1;No;False;None;1567
+8422;CBSIM : 3;4;0x10108A14;6;VS_SC_COIL_00;SC coil + to coil -;None;Output;1;No;False;None;1568
+8423;CBSIM : 3;4;0x10108A14;7;VS_SC_A+_00;SC coil + to ground;None;Output;1;No;False;None;1568
+8424;CBSIM : 3;4;0x10108A14;8;VS_SC_A-_00;None;None;Output;1;No;False;Not available anymore;1568
+8425;CBSIM : 3;4;0x10108A14;9;VS_BREAK_00;Break;None;Output;1;No;False;None;1568
+8426;CBSIM : 3;4;0x10108A14;10;OC_OUT_00;Open collector;None;Output;1;No;False;None;1538
+8427;CBSIM : 3;4;0x10108A14;11;OC_OUT_01;Open collector;None;Output;1;No;False;None;1539
+8428;CBSIM : 3;4;0x10108A14;12;5V_OUT_00;5V output;None;Output;1;No;False;None;1540
+8429;CBSIM : 3;4;0x10108A14;13;OUT_26V_00;26V output;None;Output;1;No;False;None;1541
+8430;CBSIM : 3;4;0x10108A14;14;OUT_26V_01;26V output;None;Output;1;No;False;None;1542
+8431;CBSIM : 3;4;0x10108A14;15;OUT_26V_02;26V output;None;Output;1;No;False;None;1543
+8432;CBSIM : 3;4;0x10108A18;0;OUT_26V_03;26V output;None;Output;1;No;False;None;1544
+8433;CBSIM : 3;4;0x10108A18;1;OUT_26V_04;26V output;None;Output;1;No;False;None;1545
+8434;CBSIM : 3;4;0x10108A18;2;OUT_26V_05;26V output;None;Output;1;No;False;None;1546
+8435;CBSIM : 3;4;0x10108A18;3;OUT_26V_06;26V output;None;Output;1;No;False;None;1547
+8436;CBSIM : 3;4;0x10108A18;4;OUT_26V_07;26V output;None;Output;1;No;False;None;1548
+8437;CBSIM : 3;4;0x10108A18;5;OUT_26V_08;26V output;None;Output;1;No;False;None;1549
+8438;CBSIM : 3;4;0x10108A18;6;V_SC_22;SC to ground;None;Output;1;No;False;None;1560
+8439;CBSIM : 3;4;0x10108A18;7;V_BREAK_22;Break;None;Output;1;No;False;None;1560
+8440;CBSIM : 3;4;0x10108A18;8;Relais_08;Normal open contact;None;Output;1;No;False;None;1577
+8441;CBSIM : 3;4;0x10108A18;9;NC;None;None;Idle;1;No;False;None;0
+8442;CBSIM : 3;4;0x10108A18;10;NC;None;None;Idle;1;No;False;None;0
+8443;CBSIM : 3;4;0x10108A18;11;NC;None;None;Idle;1;No;False;None;0
+8444;CBSIM : 3;4;0x10108A18;12;NC;None;None;Idle;1;No;False;None;0
+8445;CBSIM : 3;4;0x10108A18;13;NC;None;None;Idle;1;No;False;None;0
+8446;CBSIM : 3;4;0x10108A18;14;NC;None;None;Idle;1;No;False;None;0
+8447;CBSIM : 3;4;0x10108A18;15;NC;None;None;Idle;1;No;False;None;0
+8448;CBSIM : 4;5;0x10108A80;0;DIRECT_OUT_00;Digital Output;None;Output;1;No;False;None;1824
+8449;CBSIM : 4;5;0x10108A80;1;DIRECT_OUT_01;Digital Output;None;Output;1;No;False;None;1825
+8450;CBSIM : 4;5;0x10108A80;2;DIRECT_OUT_02;Digital Output;None;Output;1;No;False;None;1826
+8451;CBSIM : 4;5;0x10108A80;3;DIRECT_OUT_03;Digital Output;None;Output;1;No;False;None;1827
+8452;CBSIM : 4;5;0x10108A80;4;DIRECT_OUT_04;Digital Output;None;Output;1;No;False;None;1828
+8453;CBSIM : 4;5;0x10108A80;5;DIRECT_OUT_05;Digital Output;None;Output;1;No;False;None;1829
+8454;CBSIM : 4;5;0x10108A80;6;DIRECT_OUT_06;Digital Output;None;Output;1;No;False;None;1830
+8455;CBSIM : 4;5;0x10108A80;7;DIRECT_OUT_07;Digital Output;None;Output;1;No;False;None;1831
+8456;CBSIM : 4;5;0x10108A80;8;DIRECT_OUT_08;Digital Output;None;Output;1;No;False;None;1832
+8457;CBSIM : 4;5;0x10108A80;9;DIRECT_OUT_09;Digital Output;None;Output;1;No;False;None;1833
+8458;CBSIM : 4;5;0x10108A80;10;DIRECT_OUT_10;Digital Output;None;Output;1;No;False;None;1834
+8459;CBSIM : 4;5;0x10108A80;11;DIRECT_OUT_11;Digital Output;None;Output;1;No;False;None;1835
+8460;CBSIM : 4;5;0x10108A80;12;DIRECT_OUT_12;Digital Output;None;Output;1;No;False;None;1836
+8461;CBSIM : 4;5;0x10108A80;13;DIRECT_OUT_13;Digital Output;None;Output;1;No;False;None;1837
+8462;CBSIM : 4;5;0x10108A80;14;DIRECT_OUT_14;Digital Output;None;Output;1;No;False;None;1838
+8463;CBSIM : 4;5;0x10108A80;15;DIRECT_OUT_15;Digital Output;None;Output;1;No;False;None;1839
+8464;CBSIM : 4;5;0x10108A84;0;PX_00;Detection / No detection;None;Output;1;No;False;None;1772
+8465;CBSIM : 4;5;0x10108A84;1;PX_SC_00;SC from supply to signal;None;Output;1;No;False;None;1772
+8466;CBSIM : 4;5;0x10108A84;2;PX_BREAK_00;Break;None;Output;1;No;False;None;1772
+8467;CBSIM : 4;5;0x10108A84;3;PX_GND_00;SC from supply to ground;None;Output;1;No;False;None;1772
+8468;CBSIM : 4;5;0x10108A84;4;PX_01;Detection / No detection;None;Output;1;No;False;None;1774
+8469;CBSIM : 4;5;0x10108A84;5;PX_SC_01;SC from supply to signal;None;Output;1;No;False;None;1774
+8470;CBSIM : 4;5;0x10108A84;6;PX_BREAK_01;OC signal;None;Output;1;No;False;None;1774
+8471;CBSIM : 4;5;0x10108A84;7;PX_GND_01;SC from supply to ground;None;Output;1;No;False;None;1774
+8472;CBSIM : 4;5;0x10108A84;8;Relais_00;Normal open contact;None;Output;1;No;False;None;1788
+8473;CBSIM : 4;5;0x10108A84;9;Relais_01;Normal open contact;None;Output;1;No;False;None;1790
+8474;CBSIM : 4;5;0x10108A84;10;Relais_02;Normal open contact;None;Output;1;No;False;None;1800
+8475;CBSIM : 4;5;0x10108A84;11;Relais_03;Normal open contact;None;Output;1;No;False;None;1802
+8476;CBSIM : 4;5;0x10108A84;12;Relais_04;Normal open contact;None;Output;1;No;False;None;1806
+8477;CBSIM : 4;5;0x10108A84;13;Relais_05;Normal open contact;None;Output;1;No;False;None;1804
+8478;CBSIM : 4;5;0x10108A84;14;Relais_06;Normal open contact;None;Output;1;No;False;None;1818
+8479;CBSIM : 4;5;0x10108A84;15;Relais_07;Normal open contact;None;Output;1;No;False;None;1816
+8480;CBSIM : 4;5;0x10108A88;0;VS_SC_COIL_01;SC coil + to coil -;None;Output;1;No;False;None;1776
+8481;CBSIM : 4;5;0x10108A88;1;VS_SC_A+_01;SC coil + to ground;None;Output;1;No;False;None;1776
+8482;CBSIM : 4;5;0x10108A88;2;VS_SC_A-_01;None;None;Output;1;No;False;Not available anymore;1776
+8483;CBSIM : 4;5;0x10108A88;3;VS_BREAK_01;Break;None;Output;1;No;False;None;1776
+8484;CBSIM : 4;5;0x10108A88;4;V_SC_11;SC to ground;None;Output;1;No;False;None;1778
+8485;CBSIM : 4;5;0x10108A88;5;V_BREAK_11;Break;None;Output;1;No;False;None;1778
+8486;CBSIM : 4;5;0x10108A88;6;V_SC_12;SC to ground;None;Output;1;No;False;None;1780
+8487;CBSIM : 4;5;0x10108A88;7;V_BREAK_12;Break;None;Output;1;No;False;None;1780
+8488;CBSIM : 4;5;0x10108A88;8;V_SC_13;SC to ground;None;Output;1;No;False;None;1782
+8489;CBSIM : 4;5;0x10108A88;9;V_BREAK_13;Break;None;Output;1;No;False;None;1782
+8490;CBSIM : 4;5;0x10108A88;10;V_SC_14;SC to ground;None;Output;1;No;False;None;1784
+8491;CBSIM : 4;5;0x10108A88;11;V_BREAK_14;Break;None;Output;1;No;False;None;1784
+8492;CBSIM : 4;5;0x10108A88;12;V_SC_15;SC to ground;None;Output;1;No;False;None;1786
+8493;CBSIM : 4;5;0x10108A88;13;V_BREAK_15;Break;None;Output;1;No;False;None;1786
+8494;CBSIM : 4;5;0x10108A88;14;V_SC_16;SC to ground;None;Output;1;No;False;None;1808
+8495;CBSIM : 4;5;0x10108A88;15;V_BREAK_16;Break;None;Output;1;No;False;None;1808
+8496;CBSIM : 4;5;0x10108A8C;0;V_SC_17;SC to ground;None;Output;1;No;False;None;1810
+8497;CBSIM : 4;5;0x10108A8C;1;V_BREAK_17;Break;None;Output;1;No;False;None;1810
+8498;CBSIM : 4;5;0x10108A8C;2;V_SC_18;SC to ground;None;Output;1;No;False;None;1812
+8499;CBSIM : 4;5;0x10108A8C;3;V_BREAK_18;Break;None;Output;1;No;False;None;1812
+8500;CBSIM : 4;5;0x10108A8C;4;V_SC_19;SC to ground;None;Output;1;No;False;None;1814
+8501;CBSIM : 4;5;0x10108A8C;5;V_BREAK_19;Break;None;Output;1;No;False;None;1814
+8502;CBSIM : 4;5;0x10108A8C;6;V_SC_20;SC to ground;None;Output;1;No;False;None;1820
+8503;CBSIM : 4;5;0x10108A8C;7;V_BREAK_20;Break;None;Output;1;No;False;None;1820
+8504;CBSIM : 4;5;0x10108A8C;8;V_SC_21;SC to ground;None;Output;1;No;False;None;1822
+8505;CBSIM : 4;5;0x10108A8C;9;V_BREAK_21;Break;None;Output;1;No;False;None;1822
+8506;CBSIM : 4;5;0x10108A8C;10;PX_02;Detection / No detection;None;Output;1;No;False;None;1752
+8507;CBSIM : 4;5;0x10108A8C;11;PX_SC_02;SC from supply to signal;None;Output;1;No;False;None;1752
+8508;CBSIM : 4;5;0x10108A8C;12;PX_BREAK_02;Break;None;Output;1;No;False;None;1752
+8509;CBSIM : 4;5;0x10108A8C;13;PX_GND_02;SC from supply to ground;None;Output;1;No;False;None;1752
+8510;CBSIM : 4;5;0x10108A8C;14;TP48;None;None;Output;1;No;False;None;0
+8511;CBSIM : 4;5;0x10108A8C;15;TP49;None;None;Output;1;No;False;None;0
+8512;CBSIM : 4;5;0x10108A90;0;V_SC_00;SC to ground;None;Output;1;No;False;None;1696
+8513;CBSIM : 4;5;0x10108A90;1;V_BREAK_00;Break;None;Output;1;No;False;None;1696
+8514;CBSIM : 4;5;0x10108A90;2;V_SC_01;SC to ground;None;Output;1;No;False;None;1698
+8515;CBSIM : 4;5;0x10108A90;3;V_BREAK_01;Break;None;Output;1;No;False;None;1698
+8516;CBSIM : 4;5;0x10108A90;4;V_SC_02;SC to ground;None;Output;1;No;False;None;1700
+8517;CBSIM : 4;5;0x10108A90;5;V_BREAK_02;Break;None;Output;1;No;False;None;1700
+8518;CBSIM : 4;5;0x10108A90;6;V_SC_03;SC to ground;None;Output;1;No;False;None;1702
+8519;CBSIM : 4;5;0x10108A90;7;V_BREAK_03;Break;None;Output;1;No;False;None;1702
+8520;CBSIM : 4;5;0x10108A90;8;V_SC_04;SC to ground;None;Output;1;No;False;None;1704
+8521;CBSIM : 4;5;0x10108A90;9;V_BREAK_04;Break;None;Output;1;No;False;None;1704
+8522;CBSIM : 4;5;0x10108A90;10;V_SC_05;SC to ground;None;Output;1;No;False;None;1706
+8523;CBSIM : 4;5;0x10108A90;11;V_BREAK_05;Break;None;Output;1;No;False;None;1706
+8524;CBSIM : 4;5;0x10108A90;12;V_SC_06;SC to ground;None;Output;1;No;False;None;1708
+8525;CBSIM : 4;5;0x10108A90;13;V_BREAK_06;Break;None;Output;1;No;False;None;1708
+8526;CBSIM : 4;5;0x10108A90;14;V_SC_07;SC to ground;None;Output;1;No;False;None;1710
+8527;CBSIM : 4;5;0x10108A90;15;V_BREAK_07;Break;None;Output;1;No;False;None;1710
+8528;CBSIM : 4;5;0x10108A94;0;V_SC_08;SC to ground;None;Output;1;No;False;None;1737
+8529;CBSIM : 4;5;0x10108A94;1;V_BREAK_08;Break;None;Output;1;No;False;None;1737
+8530;CBSIM : 4;5;0x10108A94;2;V_SC_09;SC to ground;None;Output;1;No;False;None;1739
+8531;CBSIM : 4;5;0x10108A94;3;V_BREAK_09;Break;None;Output;1;No;False;None;1739
+8532;CBSIM : 4;5;0x10108A94;4;V_SC_10;SC to ground;None;Output;1;No;False;None;1741
+8533;CBSIM : 4;5;0x10108A94;5;V_BREAK_10;Break;None;Output;1;No;False;None;1741
+8534;CBSIM : 4;5;0x10108A94;6;VS_SC_COIL_00;SC coil + to coil -;None;Output;1;No;False;None;1742
+8535;CBSIM : 4;5;0x10108A94;7;VS_SC_A+_00;SC coil + to ground;None;Output;1;No;False;None;1742
+8536;CBSIM : 4;5;0x10108A94;8;VS_SC_A-_00;None;None;Output;1;No;False;Not available anymore;1742
+8537;CBSIM : 4;5;0x10108A94;9;VS_BREAK_00;Break;None;Output;1;No;False;None;1742
+8538;CBSIM : 4;5;0x10108A94;10;OC_OUT_00;Open collector;None;Output;1;No;False;None;1712
+8539;CBSIM : 4;5;0x10108A94;11;OC_OUT_01;Open collector;None;Output;1;No;False;None;1713
+8540;CBSIM : 4;5;0x10108A94;12;5V_OUT_00;5V output;None;Output;1;No;False;None;1714
+8541;CBSIM : 4;5;0x10108A94;13;OUT_26V_00;26V output;None;Output;1;No;False;None;1715
+8542;CBSIM : 4;5;0x10108A94;14;OUT_26V_01;26V output;None;Output;1;No;False;None;1716
+8543;CBSIM : 4;5;0x10108A94;15;OUT_26V_02;26V output;None;Output;1;No;False;None;1717
+8544;CBSIM : 4;5;0x10108A98;0;OUT_26V_03;26V output;None;Output;1;No;False;None;1718
+8545;CBSIM : 4;5;0x10108A98;1;OUT_26V_04;26V output;None;Output;1;No;False;None;1719
+8546;CBSIM : 4;5;0x10108A98;2;OUT_26V_05;26V output;None;Output;1;No;False;None;1720
+8547;CBSIM : 4;5;0x10108A98;3;OUT_26V_06;26V output;None;Output;1;No;False;None;1721
+8548;CBSIM : 4;5;0x10108A98;4;OUT_26V_07;26V output;None;Output;1;No;False;None;1722
+8549;CBSIM : 4;5;0x10108A98;5;OUT_26V_08;26V output;None;Output;1;No;False;None;1723
+8550;CBSIM : 4;5;0x10108A98;6;V_SC_22;SC to ground;None;Output;1;No;False;None;1734
+8551;CBSIM : 4;5;0x10108A98;7;V_BREAK_22;Break;None;Output;1;No;False;None;1734
+8552;CBSIM : 4;5;0x10108A98;8;Relais_08;Normal open contact;None;Output;1;No;False;None;1751
+8553;CBSIM : 4;5;0x10108A98;9;NC;None;None;Idle;1;No;False;None;0
+8554;CBSIM : 4;5;0x10108A98;10;NC;None;None;Idle;1;No;False;None;0
+8555;CBSIM : 4;5;0x10108A98;11;NC;None;None;Idle;1;No;False;None;0
+8556;CBSIM : 4;5;0x10108A98;12;NC;None;None;Idle;1;No;False;None;0
+8557;CBSIM : 4;5;0x10108A98;13;NC;None;None;Idle;1;No;False;None;0
+8558;CBSIM : 4;5;0x10108A98;14;NC;None;None;Idle;1;No;False;None;0
+8559;CBSIM : 4;5;0x10108A98;15;NC;None;None;Idle;1;No;False;None;0
+8560;CBSIM : 5;6;0x10108B00;0;DIRECT_OUT_00;Digital Output;None;Output;1;No;False;None;1998
+8561;CBSIM : 5;6;0x10108B00;1;DIRECT_OUT_01;Digital Output;None;Output;1;No;False;None;1999
+8562;CBSIM : 5;6;0x10108B00;2;DIRECT_OUT_02;Digital Output;None;Output;1;No;False;None;2000
+8563;CBSIM : 5;6;0x10108B00;3;DIRECT_OUT_03;Digital Output;None;Output;1;No;False;None;2001
+8564;CBSIM : 5;6;0x10108B00;4;DIRECT_OUT_04;Digital Output;None;Output;1;No;False;None;2002
+8565;CBSIM : 5;6;0x10108B00;5;DIRECT_OUT_05;Digital Output;None;Output;1;No;False;None;2003
+8566;CBSIM : 5;6;0x10108B00;6;DIRECT_OUT_06;Digital Output;None;Output;1;No;False;None;2004
+8567;CBSIM : 5;6;0x10108B00;7;DIRECT_OUT_07;Digital Output;None;Output;1;No;False;None;2005
+8568;CBSIM : 5;6;0x10108B00;8;DIRECT_OUT_08;Digital Output;None;Output;1;No;False;None;2006
+8569;CBSIM : 5;6;0x10108B00;9;DIRECT_OUT_09;Digital Output;None;Output;1;No;False;None;2007
+8570;CBSIM : 5;6;0x10108B00;10;DIRECT_OUT_10;Digital Output;None;Output;1;No;False;None;2008
+8571;CBSIM : 5;6;0x10108B00;11;DIRECT_OUT_11;Digital Output;None;Output;1;No;False;None;2009
+8572;CBSIM : 5;6;0x10108B00;12;DIRECT_OUT_12;Digital Output;None;Output;1;No;False;None;2010
+8573;CBSIM : 5;6;0x10108B00;13;DIRECT_OUT_13;Digital Output;None;Output;1;No;False;None;2011
+8574;CBSIM : 5;6;0x10108B00;14;DIRECT_OUT_14;Digital Output;None;Output;1;No;False;None;2012
+8575;CBSIM : 5;6;0x10108B00;15;DIRECT_OUT_15;Digital Output;None;Output;1;No;False;None;2013
+8576;CBSIM : 5;6;0x10108B04;0;PX_00;Detection / No detection;None;Output;1;No;False;None;1946
+8577;CBSIM : 5;6;0x10108B04;1;PX_SC_00;SC from supply to signal;None;Output;1;No;False;None;1946
+8578;CBSIM : 5;6;0x10108B04;2;PX_BREAK_00;Break;None;Output;1;No;False;None;1946
+8579;CBSIM : 5;6;0x10108B04;3;PX_GND_00;SC from supply to ground;None;Output;1;No;False;None;1946
+8580;CBSIM : 5;6;0x10108B04;4;PX_01;Detection / No detection;None;Output;1;No;False;None;1948
+8581;CBSIM : 5;6;0x10108B04;5;PX_SC_01;SC from supply to signal;None;Output;1;No;False;None;1948
+8582;CBSIM : 5;6;0x10108B04;6;PX_BREAK_01;OC signal;None;Output;1;No;False;None;1948
+8583;CBSIM : 5;6;0x10108B04;7;PX_GND_01;SC from supply to ground;None;Output;1;No;False;None;1948
+8584;CBSIM : 5;6;0x10108B04;8;Relais_00;Normal open contact;None;Output;1;No;False;None;1962
+8585;CBSIM : 5;6;0x10108B04;9;Relais_01;Normal open contact;None;Output;1;No;False;None;1964
+8586;CBSIM : 5;6;0x10108B04;10;Relais_02;Normal open contact;None;Output;1;No;False;None;1974
+8587;CBSIM : 5;6;0x10108B04;11;Relais_03;Normal open contact;None;Output;1;No;False;None;1976
+8588;CBSIM : 5;6;0x10108B04;12;Relais_04;Normal open contact;None;Output;1;No;False;None;1980
+8589;CBSIM : 5;6;0x10108B04;13;Relais_05;Normal open contact;None;Output;1;No;False;None;1978
+8590;CBSIM : 5;6;0x10108B04;14;Relais_06;Normal open contact;None;Output;1;No;False;None;1992
+8591;CBSIM : 5;6;0x10108B04;15;Relais_07;Normal open contact;None;Output;1;No;False;None;1990
+8592;CBSIM : 5;6;0x10108B08;0;VS_SC_COIL_01;SC coil + to coil -;None;Output;1;No;False;None;1950
+8593;CBSIM : 5;6;0x10108B08;1;VS_SC_A+_01;SC coil + to ground;None;Output;1;No;False;None;1950
+8594;CBSIM : 5;6;0x10108B08;2;VS_SC_A-_01;None;None;Output;1;No;False;Not available anymore;1950
+8595;CBSIM : 5;6;0x10108B08;3;VS_BREAK_01;Break;None;Output;1;No;False;None;1950
+8596;CBSIM : 5;6;0x10108B08;4;V_SC_11;SC to ground;None;Output;1;No;False;None;1952
+8597;CBSIM : 5;6;0x10108B08;5;V_BREAK_11;Break;None;Output;1;No;False;None;1952
+8598;CBSIM : 5;6;0x10108B08;6;V_SC_12;SC to ground;None;Output;1;No;False;None;1954
+8599;CBSIM : 5;6;0x10108B08;7;V_BREAK_12;Break;None;Output;1;No;False;None;1954
+8600;CBSIM : 5;6;0x10108B08;8;V_SC_13;SC to ground;None;Output;1;No;False;None;1956
+8601;CBSIM : 5;6;0x10108B08;9;V_BREAK_13;Break;None;Output;1;No;False;None;1956
+8602;CBSIM : 5;6;0x10108B08;10;V_SC_14;SC to ground;None;Output;1;No;False;None;1958
+8603;CBSIM : 5;6;0x10108B08;11;V_BREAK_14;Break;None;Output;1;No;False;None;1958
+8604;CBSIM : 5;6;0x10108B08;12;V_SC_15;SC to ground;None;Output;1;No;False;None;1960
+8605;CBSIM : 5;6;0x10108B08;13;V_BREAK_15;Break;None;Output;1;No;False;None;1960
+8606;CBSIM : 5;6;0x10108B08;14;V_SC_16;SC to ground;None;Output;1;No;False;None;1982
+8607;CBSIM : 5;6;0x10108B08;15;V_BREAK_16;Break;None;Output;1;No;False;None;1982
+8608;CBSIM : 5;6;0x10108B0C;0;V_SC_17;SC to ground;None;Output;1;No;False;None;1984
+8609;CBSIM : 5;6;0x10108B0C;1;V_BREAK_17;Break;None;Output;1;No;False;None;1984
+8610;CBSIM : 5;6;0x10108B0C;2;V_SC_18;SC to ground;None;Output;1;No;False;None;1986
+8611;CBSIM : 5;6;0x10108B0C;3;V_BREAK_18;Break;None;Output;1;No;False;None;1986
+8612;CBSIM : 5;6;0x10108B0C;4;V_SC_19;SC to ground;None;Output;1;No;False;None;1988
+8613;CBSIM : 5;6;0x10108B0C;5;V_BREAK_19;Break;None;Output;1;No;False;None;1988
+8614;CBSIM : 5;6;0x10108B0C;6;V_SC_20;SC to ground;None;Output;1;No;False;None;1994
+8615;CBSIM : 5;6;0x10108B0C;7;V_BREAK_20;Break;None;Output;1;No;False;None;1994
+8616;CBSIM : 5;6;0x10108B0C;8;V_SC_21;SC to ground;None;Output;1;No;False;None;1996
+8617;CBSIM : 5;6;0x10108B0C;9;V_BREAK_21;Break;None;Output;1;No;False;None;1996
+8618;CBSIM : 5;6;0x10108B0C;10;PX_02;Detection / No detection;None;Output;1;No;False;None;1926
+8619;CBSIM : 5;6;0x10108B0C;11;PX_SC_02;SC from supply to signal;None;Output;1;No;False;None;1926
+8620;CBSIM : 5;6;0x10108B0C;12;PX_BREAK_02;Break;None;Output;1;No;False;None;1926
+8621;CBSIM : 5;6;0x10108B0C;13;PX_GND_02;SC from supply to ground;None;Output;1;No;False;None;1926
+8622;CBSIM : 5;6;0x10108B0C;14;TP48;None;None;Output;1;No;False;None;0
+8623;CBSIM : 5;6;0x10108B0C;15;TP49;None;None;Output;1;No;False;None;0
+8624;CBSIM : 5;6;0x10108B10;0;V_SC_00;SC to ground;None;Output;1;No;False;None;1870
+8625;CBSIM : 5;6;0x10108B10;1;V_BREAK_00;Break;None;Output;1;No;False;None;1870
+8626;CBSIM : 5;6;0x10108B10;2;V_SC_01;SC to ground;None;Output;1;No;False;None;1872
+8627;CBSIM : 5;6;0x10108B10;3;V_BREAK_01;Break;None;Output;1;No;False;None;1872
+8628;CBSIM : 5;6;0x10108B10;4;V_SC_02;SC to ground;None;Output;1;No;False;None;1874
+8629;CBSIM : 5;6;0x10108B10;5;V_BREAK_02;Break;None;Output;1;No;False;None;1874
+8630;CBSIM : 5;6;0x10108B10;6;V_SC_03;SC to ground;None;Output;1;No;False;None;1876
+8631;CBSIM : 5;6;0x10108B10;7;V_BREAK_03;Break;None;Output;1;No;False;None;1876
+8632;CBSIM : 5;6;0x10108B10;8;V_SC_04;SC to ground;None;Output;1;No;False;None;1878
+8633;CBSIM : 5;6;0x10108B10;9;V_BREAK_04;Break;None;Output;1;No;False;None;1878
+8634;CBSIM : 5;6;0x10108B10;10;V_SC_05;SC to ground;None;Output;1;No;False;None;1880
+8635;CBSIM : 5;6;0x10108B10;11;V_BREAK_05;Break;None;Output;1;No;False;None;1880
+8636;CBSIM : 5;6;0x10108B10;12;V_SC_06;SC to ground;None;Output;1;No;False;None;1882
+8637;CBSIM : 5;6;0x10108B10;13;V_BREAK_06;Break;None;Output;1;No;False;None;1882
+8638;CBSIM : 5;6;0x10108B10;14;V_SC_07;SC to ground;None;Output;1;No;False;None;1884
+8639;CBSIM : 5;6;0x10108B10;15;V_BREAK_07;Break;None;Output;1;No;False;None;1884
+8640;CBSIM : 5;6;0x10108B14;0;V_SC_08;SC to ground;None;Output;1;No;False;None;1911
+8641;CBSIM : 5;6;0x10108B14;1;V_BREAK_08;Break;None;Output;1;No;False;None;1911
+8642;CBSIM : 5;6;0x10108B14;2;V_SC_09;SC to ground;None;Output;1;No;False;None;1913
+8643;CBSIM : 5;6;0x10108B14;3;V_BREAK_09;Break;None;Output;1;No;False;None;1913
+8644;CBSIM : 5;6;0x10108B14;4;V_SC_10;SC to ground;None;Output;1;No;False;None;1915
+8645;CBSIM : 5;6;0x10108B14;5;V_BREAK_10;Break;None;Output;1;No;False;None;1915
+8646;CBSIM : 5;6;0x10108B14;6;VS_SC_COIL_00;SC coil + to coil -;None;Output;1;No;False;None;1916
+8647;CBSIM : 5;6;0x10108B14;7;VS_SC_A+_00;SC coil + to ground;None;Output;1;No;False;None;1916
+8648;CBSIM : 5;6;0x10108B14;8;VS_SC_A-_00;None;None;Output;1;No;False;Not available anymore;1916
+8649;CBSIM : 5;6;0x10108B14;9;VS_BREAK_00;Break;None;Output;1;No;False;None;1916
+8650;CBSIM : 5;6;0x10108B14;10;OC_OUT_00;Open collector;None;Output;1;No;False;None;1886
+8651;CBSIM : 5;6;0x10108B14;11;OC_OUT_01;Open collector;None;Output;1;No;False;None;1887
+8652;CBSIM : 5;6;0x10108B14;12;5V_OUT_00;5V output;None;Output;1;No;False;None;1888
+8653;CBSIM : 5;6;0x10108B14;13;OUT_26V_00;26V output;None;Output;1;No;False;None;1889
+8654;CBSIM : 5;6;0x10108B14;14;OUT_26V_01;26V output;None;Output;1;No;False;None;1890
+8655;CBSIM : 5;6;0x10108B14;15;OUT_26V_02;26V output;None;Output;1;No;False;None;1891
+8656;CBSIM : 5;6;0x10108B18;0;OUT_26V_03;26V output;None;Output;1;No;False;None;1892
+8657;CBSIM : 5;6;0x10108B18;1;OUT_26V_04;26V output;None;Output;1;No;False;None;1893
+8658;CBSIM : 5;6;0x10108B18;2;OUT_26V_05;26V output;None;Output;1;No;False;None;1894
+8659;CBSIM : 5;6;0x10108B18;3;OUT_26V_06;26V output;None;Output;1;No;False;None;1895
+8660;CBSIM : 5;6;0x10108B18;4;OUT_26V_07;26V output;None;Output;1;No;False;None;1896
+8661;CBSIM : 5;6;0x10108B18;5;OUT_26V_08;26V output;None;Output;1;No;False;None;1897
+8662;CBSIM : 5;6;0x10108B18;6;V_SC_22;SC to ground;None;Output;1;No;False;None;1908
+8663;CBSIM : 5;6;0x10108B18;7;V_BREAK_22;Break;None;Output;1;No;False;None;1908
+8664;CBSIM : 5;6;0x10108B18;8;Relais_08;Normal open contact;None;Output;1;No;False;None;1925
+8665;CBSIM : 5;6;0x10108B18;9;NC;None;None;Idle;1;No;False;None;0
+8666;CBSIM : 5;6;0x10108B18;10;NC;None;None;Idle;1;No;False;None;0
+8667;CBSIM : 5;6;0x10108B18;11;NC;None;None;Idle;1;No;False;None;0
+8668;CBSIM : 5;6;0x10108B18;12;NC;None;None;Idle;1;No;False;None;0
+8669;CBSIM : 5;6;0x10108B18;13;NC;None;None;Idle;1;No;False;None;0
+8670;CBSIM : 5;6;0x10108B18;14;NC;None;None;Idle;1;No;False;None;0
+8671;CBSIM : 5;6;0x10108B18;15;NC;None;None;Idle;1;No;False;None;0
