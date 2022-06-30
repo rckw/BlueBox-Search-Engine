@@ -1,0 +1,193 @@
+ABSD board;Type;Board Circuit;Fuse;Pinname;Description / Pin number;OMS / TES;ABSD(A);OMS / TES;ABSD(B);OMS / TES;ABSD(C);OMS / TES;ABSD(D);OMS / TES;ABSD(E);OPI (ABB0110) / TPI (ABB0111);ABSD(A);OPI (ABB0110) / TPI (ABB0;ABSD(B);OPI (ABB0110) / TPI (ABB0);ABSD(C);OPI (ABB0110) / TPI (ABB0);ABSD(D);OPI (ABB0110) / TPI (ABB0);ABSD(E);OMI / TMI;ABSD(A)
+-;Type;Name;Fuse;Pinname;Desciption / Pin number;ABSD(A);-;ABSD(B);-;ABSD(C);-;ABSD(D);-;ABSD(E);-;ABSD(A);-;ABSD(B);-;ABSD(C);-;ABSD(D);-;ABSD(E);-;ABSD(A);-
+-;-;Valve drivers;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;VALVE_00;V00;F1;-;valve driver;VRN01;-;VRN18;-;-;-;-;-;VRN26;-;VRN01;-;VRN21;-;-;-;-;-;VRN31;-;ATI_LHS_VIN;-
+x;-;-;-;V00+;P1-2F;-;VRN01+;-;VRN18+;-;-;-;-;-;VRN26+;-;VRN01+;-;VRN21+;-;-;-;-;-;VRN31+;-;ATI_LHS_VIN+
+x;-;-;-;V00-;P1-2D;-;VRN01-;-;VRN18-;-;-;-;-;-;VRN26-;-;VRN01-;-;VRN21-;-;-;-;-;-;VRN31-;-;ATI_LHS_VIN-
+-;VALVE_00;V01;F1;-;valve driver;VRN02;-;VRN19;-;-;-;-;-;VRN27;-;VRN02;-;VRN22;-;-;-;-;-;VRN32;-;TI_LHS_VHOLD;-
+x;-;-;-;V01+;P1-2B;-;VRN02+;-;VRN19+;-;-;-;-;-;VRN27+;-;VRN02+;-;VRN22+;-;-;-;-;-;VRN32+;-;TI_LHS_VHOLD+
+x;-;-;-;V01-;P1-2Z;-;VRN02-;-;VRN19-;-;-;-;-;-;VRN27-;-;VRN02-;-;VRN22-;-;-;-;-;-;VRN32-;-;TI_LHS_VHOLD-
+-;VALVE_00;V02;F1;-;valve driver;VRN03;-;VRN20;-;-;-;-;-;VRN28;-;VRN03;-;VRN23;-;-;-;-;-;VRN33;-;ATI_RHS_VIN;-
+x;-;-;-;V02+;P1-4F;-;VRN03+;-;VRN20+;-;-;-;-;-;VRN28+;-;VRN03+;-;VRN23+;-;-;-;-;-;VRN33+;-;ATI_RHS_VIN+
+x;-;-;-;V02-;P1-4D;-;VRN03-;-;VRN20-;-;-;-;-;-;VRN28-;-;VRN03-;-;VRN23-;-;-;-;-;-;VRN33-;-;ATI_RHS_VIN-
+-;VALVE_00;V03;F1;-;valve driver;VRN04;-;VRN21;-;-;-;-;-;VRN29;-;VRN04;-;VRN24;-;-;-;-;-;VRN34;-;TI_RHS_VHOLD;-
+x;-;-;-;V03+;P1-4B;-;VRN04+;-;VRN21+;-;-;-;-;-;VRN29+;-;VRN04+;-;VRN24+;-;-;-;-;-;VRN34+;-;TI_RHS_VHOLD+
+x;-;-;-;V03-;P1-4Z;-;VRN04-;-;VRN21-;-;-;-;-;-;VRN29-;-;VRN04-;-;VRN24-;-;-;-;-;-;VRN34-;-;TI_RHS_VHOLD-
+-;VALVE_00;V04;F1;-;valve driver;VRN05;-;VRN22;-;-;-;-;-;-;-;VRN05;-;VRN25;-;-;-;-;-;VRN35;-;ATI_MID1_VIN;-
+x;-;-;-;V04+;P1-6F;-;VRN05+;-;VRN22+;-;-;-;-;-;-;-;VRN05+;-;VRN25+;-;-;-;-;-;VRN35+;-;ATI_MID1_VIN+
+x;-;-;-;V04-;P1-6D;-;VRN05-;-;VRN22-;-;-;-;-;-;-;-;VRN05-;-;VRN25-;-;-;-;-;-;VRN35-;-;ATI_MID1_VIN-
+-;VALVE_00;V05;F1;-;valve driver;VRN06;-;VRN23;-;-;-;-;-;-;-;VRN06;-;VRN26;-;-;-;-;-;-;-;TI_MID1_VHOLD;-
+x;-;-;-;V05+;P1-6B;-;VRN06+;-;VRN23+;-;-;-;-;-;-;-;VRN06+;-;VRN26+;-;-;-;-;-;-;-;TI_MID1_VHOLD+
+x;-;-;-;V05-;P1-6Z;-;VRN06-;-;VRN23-;-;-;-;-;-;-;-;VRN06-;-;VRN26-;-;-;-;-;-;-;-;TI_MID1_VHOLD-
+-;VALVE_00;V06;F1;-;valve driver;VRN07;-;VRN24;-;-;-;-;-;-;-;VRN07;-;VRN27;-;-;-;-;-;-;-;ATI_MID2_VIN;-
+x;-;-;-;V06+;P1-8F;-;VRN07+;-;VRN24+;-;-;-;-;-;-;-;VRN07+;-;VRN27+;-;-;-;-;-;-;-;ATI_MID2_VIN+
+x;-;-;-;V06-;P1-8D;-;VRN07-;-;VRN24-;-;-;-;-;-;-;-;VRN07-;-;VRN27-;-;-;-;-;-;-;-;ATI_MID2_VIN-
+-;VALVE_00;V07;F1;-;valve driver;VRN08;-;VRN25;-;-;-;-;-;-;-;VRN08;-;VRN28;-;-;-;-;-;-;-;TI_MID2_VHOLD;-
+x;-;-;-;V07+;P1-8B;-;VRN08+;-;VRN25+;-;-;-;-;-;-;-;VRN08+;-;VRN28+;-;-;-;-;-;-;-;TI_MID2_VHOLD+
+x;-;-;-;V07-;P1-8Z;-;VRN08-;-;VRN25-;-;-;-;-;-;-;-;VRN08-;-;VRN28-;-;-;-;-;-;-;-;TI_MID2_VHOLD-
+-;VALVE_00;V08;F1;-;valve driver;VRN09;-;-;-;-;-;-;-;-;-;VRN09;-;VRN29;-;-;-;-;-;-;-;ATI_MID3_VIN;-
+x;-;-;-;V08+;P1-10F;-;VRN09+;-;-;-;-;-;-;-;-;-;VRN09+;-;VRN29+;-;-;-;-;-;-;-;ATI_MID3_VIN+
+x;-;-;-;V08-;P1-10D;-;VRN09-;-;-;-;-;-;-;-;-;-;VRN09-;-;VRN29-;-;-;-;-;-;-;-;ATI_MID3_VIN-
+-;VALVE_00;V09;F1;-;valve driver;VRN10;-;-;-;-;-;-;-;-;-;VRN10;-;VRN30;-;-;-;-;-;-;-;TI_MID3_VHOLD;-
+x;-;-;-;V09+;P1-10B;-;VRN10+;-;-;-;-;-;-;-;-;-;VRN10+;-;VRN30+;-;-;-;-;-;-;-;TI_MID3_VHOLD+
+x;-;-;-;V09-;P1-10Z;-;VRN10-;-;-;-;-;-;-;-;-;-;VRN10-;-;VRN30-;-;-;-;-;-;-;-;TI_MID3_VHOLD-
+-;VALVE_00;V10;F1;-;valve driver;VRN11;-;VPBL_MNM;-;-;-;-;-;-;-;VRN11;-;VPBL_MNM;-;-;-;-;-;-;-;ATI_MID4_VIN;-
+x;-;-;-;V10+;P1-12F;-;VRN11+;-;VPBL_MNM+;-;-;-;-;-;-;-;VRN11+;-;VPBL_MNM+;-;-;-;-;-;-;-;ATI_MID4_VIN+
+x;-;-;-;V10-;P1-12D;-;VRN11-;-;VPBL_MNM-;-;-;-;-;-;-;-;VRN11-;-;VPBL_MNM-;-;-;-;-;-;-;-;ATI_MID4_VIN-
+-;VALVE_00;V11;F1;-;valve driver;VRN12;-;ATI_LHS_VIN;-;-;-;-;-;ATI_MID1_VIN;-;VRN12;-;ATI_LHS_VIN;-;-;-;ATI_MID4_VIN;-;ATI_MID1_VIN;-;TI_MID4_VHOLD;-
+x;-;-;-;V11+;P1-12B;-;VRN12+;-;ATI_LHS_VIN+;-;-;-;-;-;ATI_MID1_VIN+;-;VRN12+;-;ATI_LHS_VIN+;-;-;-;ATI_MID4_VIN+;-;ATI_MID1_VIN+;-;TI_MID4_VHOLD+
+x;-;-;-;V11-;P1-12Z;-;VRN12-;-;ATI_LHS_VIN-;-;-;-;-;-;ATI_MID1_VIN-;-;VRN12-;-;ATI_LHS_VIN-;-;-;-;ATI_MID4_VIN-;-;ATI_MID1_VIN-;-;TI_MID4_VHOLD-
+-;VALVE_00;V12;F1;-;valve driver;VRN13;-;TI_LHS_VHOLD;-;-;-;-;-;TI_MID1_VHOLD;-;VRN13;-;TI_LHS_VHOLD;-;-;-;TI_MID4_VHOLD;-;TI_MID1_VHOLD;-;-;-
+x;-;-;-;V12+;P1-14F;-;VRN13+;-;TI_LHS_VHOLD+;-;-;-;-;-;TI_MID1_VHOLD+;-;VRN13+;-;TI_LHS_VHOLD+;-;-;-;TI_MID4_VHOLD+;-;TI_MID1_VHOLD+;-;-
+x;-;-;-;V12-;P1-14D;-;VRN13-;-;TI_LHS_VHOLD-;-;-;-;-;-;TI_MID1_VHOLD-;-;VRN13-;-;TI_LHS_VHOLD-;-;-;-;TI_MID4_VHOLD-;-;TI_MID1_VHOLD-;-;-
+-;VALVE_00;V13;F1;-;valve driver;VRN14;-;PRA_VCLMP;-;-;-;-;-;ATI_MID1_VCT;-;VRN14;-;PRA_VCLMP;-;-;-;ATI_MID4_VCT;-;ATI_MID1_VCT;-;-;-
+x;-;-;-;V13+;P1-14B;-;VRN14+;-;PRA_VCLMP+;-;-;-;-;-;ATI_MID1_VCT+;-;VRN14+;-;PRA_VCLMP+;-;-;-;ATI_MID4_VCT+;-;ATI_MID1_VCT+;-;-
+x;-;-;-;V13-;P1-14Z;-;VRN14-;-;PRA_VCLMP-;-;-;-;-;-;ATI_MID1_VCT-;-;VRN14-;-;PRA_VCLMP-;-;-;-;ATI_MID4_VCT-;-;ATI_MID1_VCT-;-;-
+-;VALVE_00;V14;F1;-;valve driver;VRN15;-;ATI_RHS_VIN;-;-;-;-;-;ATI_MID2_VIN;-;VRN15;-;ATI_RHS_VIN;-;-;-;ATI_MID5_VIN;-;ATI_MID2_VIN;-;EF_VCLMP1;-
+x;-;-;-;V14+;P1-16F;-;VRN15+;-;ATI_RHS_VIN+;-;-;-;-;-;ATI_MID2_VIN+;-;VRN15+;-;ATI_RHS_VIN+;-;-;-;ATI_MID5_VIN+;-;ATI_MID2_VIN+;-;EF_VCLMP1+
+x;-;-;-;V14-;P1-16D;-;VRN15-;-;ATI_RHS_VIN-;-;-;-;-;-;ATI_MID2_VIN-;-;VRN15-;-;ATI_RHS_VIN-;-;-;-;ATI_MID5_VIN-;-;ATI_MID2_VIN-;-;EF_VCLMP1-
+-;VALVE_00;V15;F1;-;valve driver;VRN16;-;TI_RHS_VHOLD;-;-;-;-;-;TI_MID2_VHOLD;-;VRN16;-;TI_RHS_VHOLD;-;-;-;TI_MID5_VHOLD;-;TI_MID2_VHOLD;-;EF_VCLMP2;-
+x;-;-;-;V15+;P1-16B;-;VRN16+;-;TI_RHS_VHOLD+;-;-;-;-;-;TI_MID2_VHOLD+;-;VRN16+;-;TI_RHS_VHOLD+;-;-;-;TI_MID5_VHOLD+;-;TI_MID2_VHOLD+;-;EF_VCLMP2+
+x;-;-;-;V15-;P1-16Z;-;VRN16-;-;TI_RHS_VHOLD-;-;-;-;-;-;TI_MID2_VHOLD-;-;VRN16-;-;TI_RHS_VHOLD-;-;-;-;TI_MID5_VHOLD-;-;TI_MID2_VHOLD-;-;EF_VCLMP2-
+-;VALVE_00;V16;F1;-;valve driver;VRN17;-;ATI_RHS_VCT;-;-;-;-;-;ATI_MID2_VCT;-;VRN17;-;ATI_RHS_VCT;-;-;-;ATI_MID5_VCT;-;ATI_MID2_VCT;-;EF_VCT;-
+x;-;-;-;V16+;P1-18F;-;VRN17+;-;ATI_RHS_VCT+;-;-;-;-;-;ATI_MID2_VCT+;-;VRN17+;-;ATI_RHS_VCT+;-;-;-;ATI_MID5_VCT+;-;ATI_MID2_VCT+;-;EF_VCT+
+x;-;-;-;V16-;P1-18D;-;VRN17-;-;ATI_RHS_VCT-;-;-;-;-;-;ATI_MID2_VCT-;-;VRN17-;-;ATI_RHS_VCT-;-;-;-;ATI_MID5_VCT-;-;ATI_MID2_VCT-;-;EF_VCT-
+-;VALVE_00;V17;F1;-;valve driver;VSN;-;-;-;-;-;-;-;ATI_MID3_VIN;-;VRN18;-;VPBL_LHS;-;-;-;-;-;ATI_MID3_VIN;-;-;-
+x;-;-;-;V17+;P1-18B;-;VSN+;-;-;-;-;-;-;-;ATI_MID3_VIN+;-;VRN18+;-;VPBL_LHS+;-;-;-;-;-;ATI_MID3_VIN+;-;-
+x;-;-;-;V17-;P1-18Z;-;VSN-;-;-;-;-;-;-;-;ATI_MID3_VIN-;-;VRN18-;-;VPBL_LHS-;-;-;-;-;-;ATI_MID3_VIN-;-;-
+-;VALVE_00;V18;F1;-;valve driver;VSNEX/VSU;-;-;-;-;-;-;-;TI_MID3_VHOLD;-;VRN19;-;VPBL_RHS;-;-;-;-;-;TI_MID3_VHOLD;-;-;-
+x;-;-;-;V18+;P1-20F;-;VSNEX/VSU+;-;-;-;-;-;-;-;TI_MID3_VHOLD+;-;VRN19+;-;VPBL_RHS+;-;-;-;-;-;TI_MID3_VHOLD+;-;-
+x;-;-;-;V18-;P1-20D;-;VSNEX/VSU-;-;-;-;-;-;-;-;TI_MID3_VHOLD-;-;VRN19-;-;VPBL_RHS-;-;-;-;-;-;TI_MID3_VHOLD-;-;-
+-;VALVE_00;V19;F1;-;valve driver;-;-;-;-;-;-;VPMMNM;-;ATI_MID3_VCT;-;VRN20;-;-;-;-;-;-;-;ATI_MID3_VCT;-;-;-
+x;-;-;-;V19+;P1-20B;-;-;-;-;-;-;-;VPMMNM+;-;ATI_MID3_VCT+;-;VRN20+;-;-;-;-;-;-;-;ATI_MID3_VCT+;-;-
+x;-;-;-;V19-;P1-20Z;-;-;-;-;-;-;-;VPMMNM-;-;ATI_MID3_VCT-;-;VRN20-;-;-;-;-;-;-;-;ATI_MID3_VCT-;-;-
+-;VALVE_00;V20;F1;-;valve driver;PRA_VSU;-;-;-;-;-;-;-;-;-;PRA_VSU;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;V20+;P1-22F;-;PRA_VSU+;-;-;-;-;-;-;-;-;-;PRA_VSU+;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;V20-;P1-22D;-;PRA_VSU-;-;-;-;-;-;-;-;-;-;PRA_VSU-;-;-;-;-;-;-;-;-;-;-
+-;VALVE_00;V21;F1;-;valve driver;VAUX;-;-;-;-;-;-;-;-;-;-;-;VAUX;-;-;-;-;-;-;-;-;-
+x;-;-;-;V21+;P1-22B;-;VAUX+;-;-;-;-;-;-;-;-;-;-;-;VAUX+;-;-;-;-;-;-;-;-
+x;-;-;-;V21-;P1-22Z;-;VAUX-;-;-;-;-;-;-;-;-;-;-;-;VAUX-;-;-;-;-;-;-;-;-
+-;VALVE_00;V22;F1;-;valve driver;VRA_CH1;-;VRA_CH3;-;VRA_CH5;-;VRA_CH7;-;-;-;VRA_CH1;-;VRA_CH3;-;VRA_CH5;-;VRA_CH7;-;-;-;-;-
+x;-;-;-;V22+;P1-24F;-;VRA_CH1+;-;VRA_CH3+;-;VRA_CH5+;-;VRA_CH7+;-;-;-;VRA_CH1+;-;VRA_CH3+;-;VRA_CH5+;-;VRA_CH7+;-;-;-;-
+x;-;-;-;V22-;P1-24D;-;VRA_CH1-;-;VRA_CH3-;-;VRA_CH5-;-;VRA_CH7-;-;-;-;VRA_CH1-;-;VRA_CH3-;-;VRA_CH5-;-;VRA_CH7-;-;-;-;-
+-;VALVE_00;V23;F1;-;valve driver;VRA_CH2;-;VRA_CH4;-;VRA_CH6;-;VRA_CH8;-;-;-;VRA_CH2;-;VRA_CH4;-;VRA_CH6;-;VRA_CH8;-;-;-;-;-
+x;-;-;-;V23+;P1-24B;-;VRA_CH2+;-;VRA_CH4+;-;VRA_CH6+;-;VRA_CH8+;-;-;-;VRA_CH2+;-;VRA_CH4+;-;VRA_CH6+;-;VRA_CH8+;-;-;-;-
+x;-;-;-;V23-;P1-24Z;-;VRA_CH2-;-;VRA_CH4-;-;VRA_CH6-;-;VRA_CH8-;-;-;-;VRA_CH2-;-;VRA_CH4-;-;VRA_CH6-;-;VRA_CH8-;-;-;-;-
+-;VALVE_00;V24;F1;-;valve driver;-;-;-;-;-;-;-;-;-;-;VSN;-;VCLN_O-LENO_LHS;-;-;-;-;-;-;-;-;-
+x;-;-;-;V24+;P1-26F;-;-;-;-;-;-;-;-;-;-;-;VSN+;-;VCLN_O-LENO_LHS+;-;-;-;-;-;-;-;-
+x;-;-;-;V24-;P1-26D;-;-;-;-;-;-;-;-;-;-;-;VSN-;-;VCLN_O-LENO_LHS-;-;-;-;-;-;-;-;-
+-;VALVE_00;V25;F1;-;valve driver;-;-;-;-;-;-;-;-;-;-;VSNEX/VSU;-;VCLN_O-LENO_RHS;-;-;-;-;-;-;-;-;-
+x;-;-;-;V25+;P1-26B;-;-;-;-;-;-;-;-;-;-;-;VSNEX/VSU+;-;VCLN_O-LENO_RHS+;-;-;-;-;-;-;-;-
+x;-;-;-;V25-;P1-26Z;-;-;-;-;-;-;-;-;-;-;-;VSNEX/VSU-;-;VCLN_O-LENO_RHS-;-;-;-;-;-;-;-;-
+-;VALVE_00;V26;F1;-;valve driver;VCLMP_MN_CH1;-;VCLMP_MN_CH3;-;VCLMP_MN_CH5;-;VCLMP_MN_CH7;-;-;-;VCLMP_MN_CH1 / VRMN_CH1;-;VCLMP_MN_CH3 / VRMN_CH3;-;VCLMP_MN_CH5;-;VCLMP_MN_CH7;-;-;-;-;-
+x;-;-;-;V26+;P1-28F;-;VCLMP_MN_CH1+;-;VCLMP_MN_CH3+;-;VCLMP_MN_CH5+;-;VCLMP_MN_CH7+;-;-;-;VCLMP_MN_CH1+ / VRMN_CH1+;-;VCLMP_MN_CH3+ / VRMN_CH3+;-;VCLMP_MN_CH5+;-;VCLMP_MN_CH7+;-;-;-;-
+x;-;-;-;V26-;P1-28D;-;VCLMP_MN_CH1-;-;VCLMP_MN_CH3-;-;VCLMP_MN_CH5-;-;VCLMP_MN_CH7-;-;-;-;VCLMP_MN_CH1- / VRMN_CH1-;-;VCLMP_MN_CH3- / VRMN_CH3-;-;VCLMP_MN_CH5-;-;VCLMP_MN_CH7-;-;-;-;-
+-;VALVE_00;V27;F1;-;valve driver;VCLMP_MN_CH2;-;VCLMP_MN_CH4;-;VCLMP_MN_CH6;-;VCLMP_MN_CH8;-;-;-;VCLMP_MN_CH2 / VRMN_CH2;-;VCLMP_MN_CH4 / VRMN_CH4;-;VCLMP_MN_CH6;-;VCLMP_MN_CH8;-;-;-;-;-
+x;-;-;-;V27+;P1-28B;-;VCLMP_MN_CH2+;-;VCLMP_MN_CH4+;-;VCLMP_MN_CH6+;-;VCLMP_MN_CH8+;-;-;-;VCLMP_MN_CH2+ / VRMN_CH2+;-;VCLMP_MN_CH4+ / VRMN_CH4+;-;VCLMP_MN_CH6+;-;VCLMP_MN_CH8+;-;-;-;-
+x;-;-;-;V27-;P1-28Z;-;VCLMP_MN_CH2-;-;VCLMP_MN_CH4-;-;VCLMP_MN_CH6-;-;VCLMP_MN_CH8-;-;-;-;VCLMP_MN_CH2- / VRMN_CH2-;-;VCLMP_MN_CH4- / VRMN_CH4-;-;VCLMP_MN_CH6-;-;VCLMP_MN_CH8-;-;-;-;-
+-;VALVE_00;V28;F1;-;valve driver;VMNF_CH1;-;VMNF_CH3;-;VMNF_CH5;-;VMNF_CH7;-;VMNTF_CH1;-;VMNF_CH1;-;VMNF_CH3;-;VMNF_CH5;-;VMNF_CH7;-;VMNTF_CH1;-;-;-
+x;-;-;-;V28+;P1-30F;-;VMNF_CH1+;-;VMNF_CH3+;-;VMNF_CH5+;-;VMNF_CH7+;-;VMNTF_CH1+;-;VMNF_CH1+;-;VMNF_CH3+;-;VMNF_CH5+;-;VMNF_CH7+;-;VMNTF_CH1+;-;-
+x;-;-;-;V28-;P1-30D;-;VMNF_CH1-;-;VMNF_CH3-;-;VMNF_CH5-;-;VMNF_CH7-;-;VMNTF_CH1-;-;VMNF_CH1-;-;VMNF_CH3-;-;VMNF_CH5-;-;VMNF_CH7-;-;VMNTF_CH1-;-;-
+-;VALVE_00;V29;F1;-;valve driver;VMNF_CH2;-;VMNF_CH4;-;VMNF_CH6;-;VMNF_CH8;-;VMNTF_CH2;-;VMNF_CH2;-;VMNF_CH4;-;VMNF_CH6;-;VMNF_CH8;-;VMNTF_CH2;-;-;-
+x;-;-;-;V29+;P1-30B;-;VMNF_CH2+;-;VMNF_CH4+;-;VMNF_CH6+;-;VMNF_CH8+;-;VMNTF_CH2+;-;VMNF_CH2+;-;VMNF_CH4+;-;VMNF_CH6+;-;VMNF_CH8+;-;VMNTF_CH2+;-;-
+x;-;-;-;V29-;P1-30Z;-;VMNF_CH2-;-;VMNF_CH4-;-;VMNF_CH6-;-;VMNF_CH8-;-;VMNTF_CH2-;-;VMNF_CH2-;-;VMNF_CH4-;-;VMNF_CH6-;-;VMNF_CH8-;-;VMNTF_CH2-;-;-
+-;VALVE_00;V30;F1;-;valve driver;VMNM_CH1;-;VMNM_CH3;-;VMNM_CH5;-;VMNM_CH7;-;VMNTF_CH3;-;VMNM_CH1;-;VMNM_CH3;-;VMNM_CH5;-;VMNM_CH7;-;VMNTF_CH3;-;-;-
+x;-;-;-;V30+;P1-32F;-;VMNM_CH1+;-;VMNM_CH3+;-;VMNM_CH5+;-;VMNM_CH7+;-;VMNTF_CH3+;-;VMNM_CH1+;-;VMNM_CH3+;-;VMNM_CH5+;-;VMNM_CH7+;-;VMNTF_CH3+;-;-
+x;-;-;-;V30-;P1-32D;-;VMNM_CH1-;-;VMNM_CH3-;-;VMNM_CH5-;-;VMNM_CH7-;-;VMNTF_CH3-;-;VMNM_CH1-;-;VMNM_CH3-;-;VMNM_CH5-;-;VMNM_CH7-;-;VMNTF_CH3-;-;-
+-;VALVE_00;V31;F1;-;valve driver;VMNM_CH2;-;VMNM_CH4;-;VMNM_CH6;-;VMNM_CH8;-;VMNTF_CH4;-;VMNM_CH2;-;VMNM_CH4;-;VMNM_CH6;-;VMNM_CH8;-;VMNTF_CH4;-;-;-
+x;-;-;-;V31+;P1-32B;-;VMNM_CH2+;-;VMNM_CH4+;-;VMNM_CH6+;-;VMNM_CH8+;-;VMNTF_CH4+;-;VMNM_CH2+;-;VMNM_CH4+;-;VMNM_CH6+;-;VMNM_CH8+;-;VMNTF_CH4+;-;-
+x;-;-;-;V31-;P1-32Z;-;VMNM_CH2-;-;VMNM_CH4-;-;VMNM_CH6-;-;VMNM_CH8-;-;VMNTF_CH4-;-;VMNM_CH2-;-;VMNM_CH4-;-;VMNM_CH6-;-;VMNM_CH8-;-;VMNTF_CH4-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;General purpose digital in;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;IN_NPN_G_00;IN00;-;-;ingang met pull up en massa;FD1;-;-;-;-;-;-;-;-;-;FD1;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;INPUT00;P3-2F;-;FD1;-;-;-;-;-;-;-;-;-;FD1;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;INPUT00_GND;P3-2Z;-;FD_GND;-;-;-;-;-;-;-;-;-;FD_GND;-;-;-;-;-;-;-;-;-;-
+-;IN_NPN_G_00;IN01;-;-;ingang met pull up en massa;FD2;-;-;-;-;-;-;-;-;-;FD2;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;INPUT01;P3-2D;-;FD2;-;-;-;-;-;-;-;-;-;FD2;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;INPUT01_GND;P3-4D;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;IN_NPN_G_00;IN02;-;-;ingang met pull up en massa;FD3;-;-;-;-;-;-;-;ELSY_MID1_PB;-;FD3;-;-;-;-;-;-;-;ELSY_MID1_PB;-;-;-
+x;-;-;-;INPUT02;P3-2B;-;FD3;-;-;-;-;-;-;-;ELSY_MID1_PB;-;FD3;-;-;-;-;-;-;-;ELSY_MID1_PB;-;-
+x;-;-;-;INPUT02_GND;P3-4Z;-;-;-;-;-;-;-;-;-;ELSY_MID1_PB_GND;-;-;-;-;-;-;-;-;-;ELSY_MID1_PB_GND;-;-
+-;IN_NPN_SG_00;IN03;-;-;ingang met pull up en massa;ELSY_LHS_PB;-;-;-;-;-;-;-;ELSY_MID2_PB;-;ELSY_LHS_PB;-;-;-;-;-;-;-;ELSY_MID2_PB;-;-;-
+x;-;-;-;INPUT03;P3-6F;-;ELSY_LHS_PB;-;-;-;-;-;-;-;ELSY_MID2_PB;-;ELSY_LHS_PB;-;-;-;-;-;-;-;ELSY_MID2_PB;-;-
+x;-;-;RT1;INPUT03_26V;P3-4F;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;INPUT03_GND;P3-6D;-;ELSY_LHS_PB_GND;-;-;-;-;-;-;-;ELSY_MID2_PB_GND;-;ELSY_LHS_PB_GND;-;-;-;-;-;-;-;ELSY_MID2_PB_GND;-;-
+-;IN_NPN_SG_00;IN04;-;-;ingang met pull up en massa;ELSY_RHS_PB;-;-;-;-;-;-;-;ELSY_MID3_PB;-;ELSY_RHS_PB;-;-;-;-;-;-;-;ELSY_MID3_PB;-;-;-
+x;-;-;-;INPUT04;P3-6B;-;ELSY_RHS_PB;-;-;-;-;-;-;-;ELSY_MID3_PB;-;ELSY_RHS_PB;-;-;-;-;-;-;-;ELSY_MID3_PB;-;-
+x;-;-;RT1;INPUT04_26V;P3-4B;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;INPUT04_GND;P3-6Z;-;ELSY_RHS_PB_GND;-;-;-;-;-;-;-;ELSY_MID3_PB_GND;-;ELSY_RHS_PB_GND;-;-;-;-;-;-;-;ELSY_MID3_PB_GND;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;Small stepper motor;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;SSM_30522_00;SSM00;F2;-;small stepper motor drives;ELCA_F_CH1;-;ELCA_F_CH3;-;ELCA_F_CH5;-;ELCA_F_CH7;-;WCT_LHS;-;ELCA_F_CH1;-;ELCA_F_CH3;-;ELCA_F_CH5;-;ELCA_F_CH7;-;WCT_LHS;-;FBRCT2;-
+x;-;-;-;SSM00_CA+;P3-8F;-;ELCA_F_CH1_CA+;-;ELCA_F_CH3_CA+;-;ELCA_F_CH5_CA+;-;ELCA_F_CH7_CA+;-;WCT_LHS_CA+;-;ELCA_F_CH1_CA+;-;ELCA_F_CH3_CA+;-;ELCA_F_CH5_CA+;-;ELCA_F_CH7_CA+;-;WCT_LHS_CA+;-;FBRCT2_CA+
+x;-;-;-;SSM00_CA+-;P3-8D;-;ELCA_F_CH1_CA-;-;ELCA_F_CH3_CA-;-;ELCA_F_CH5_CA-;-;ELCA_F_CH7_CA-;-;WCT_LHS_CA-;-;ELCA_F_CH1_CA-;-;ELCA_F_CH3_CA-;-;ELCA_F_CH5_CA-;-;ELCA_F_CH7_CA-;-;WCT_LHS_CA-;-;FBRCT2_CA-
+x;-;-;-;SSM00_CB+;P3-8B;-;ELCA_F_CH1_CB+;-;ELCA_F_CH3_CB+;-;ELCA_F_CH5_CB+;-;ELCA_F_CH7_CB+;-;WCT_LHS_CB+;-;ELCA_F_CH1_CB+;-;ELCA_F_CH3_CB+;-;ELCA_F_CH5_CB+;-;ELCA_F_CH7_CB+;-;WCT_LHS_CB+;-;FBRCT2_CB+
+x;-;-;-;SSM00_CB-;P3-8Z;-;ELCA_F_CH1_CB-;-;ELCA_F_CH3_CB-;-;ELCA_F_CH5_CB-;-;ELCA_F_CH7_CB-;-;WCT_LHS_CB-;-;ELCA_F_CH1_CB-;-;ELCA_F_CH3_CB-;-;ELCA_F_CH5_CB-;-;ELCA_F_CH7_CB-;-;WCT_LHS_CB-;-;FBRCT2_CB-
+-;SSM_30522_00;SSM01;F2;-;small stepper motor drives;ELCA_F_CH2;-;ELCA_F_CH4;-;ELCA_F_CH6;-;ELCA_F_CH8;-;FBRCT2;-;ELCA_F_CH2;-;ELCA_F_CH4;-;ELCA_F_CH6;-;ELCA_F_CH8;-;FBRCT2;-;FBRCT3;-
+x;-;-;-;SSM01_CA+;P3-10F;-;ELCA_F_CH2_CA+;-;ELCA_F_CH4_CA+;-;ELCA_F_CH6_CA+;-;ELCA_F_CH8_CA+;-;FBRCT2_CA+;-;ELCA_F_CH2_CA+;-;ELCA_F_CH4_CA+;-;ELCA_F_CH6_CA+;-;ELCA_F_CH8_CA+;-;FBRCT2_CA+;-;FBRCT3_CA+
+x;-;-;-;SSM01_CA+-;P3-10D;-;ELCA_F_CH2_CA-;-;ELCA_F_CH4_CA-;-;ELCA_F_CH6_CA-;-;ELCA_F_CH8_CA-;-;FBRCT2_CA-;-;ELCA_F_CH2_CA-;-;ELCA_F_CH4_CA-;-;ELCA_F_CH6_CA-;-;ELCA_F_CH8_CA-;-;FBRCT2_CA-;-;FBRCT3_CA-
+x;-;-;-;SSM01_CB+;P3-10B;-;ELCA_F_CH2_CB+;-;ELCA_F_CH4_CB+;-;ELCA_F_CH6_CB+;-;ELCA_F_CH8_CB+;-;FBRCT2_CB+;-;ELCA_F_CH2_CB+;-;ELCA_F_CH4_CB+;-;ELCA_F_CH6_CB+;-;ELCA_F_CH8_CB+;-;FBRCT2_CB+;-;FBRCT3_CB+
+x;-;-;-;SSM01_CB-;P3-10Z;-;ELCA_F_CH2_CB-;-;ELCA_F_CH4_CB-;-;ELCA_F_CH6_CB-;-;ELCA_F_CH8_CB-;-;FBRCT2_CB-;-;ELCA_F_CH2_CB-;-;ELCA_F_CH4_CB-;-;ELCA_F_CH6_CB-;-;ELCA_F_CH8_CB-;-;FBRCT2_CB-;-;FBRCT3_CB-
+-;SSM_30522_00;SSM02;F2;-;small stepper motor drives;ELCA_M_CH1;-;ELCA_M_CH3;-;ELCA_M_CH5;-;ELCA_M_CH7;-;FBRCT3;-;ELCA_M_CH1;-;ELCA_M_CH3;-;ELCA_M_CH5;-;ELCA_M_CH7;-;FBRCT3;-;FBRCT4;-
+x;-;-;-;SSM02_CA+;P3-12F;-;ELCA_M_CH1_CA+;-;ELCA_M_CH3_CA+;-;ELCA_M_CH5_CA+;-;ELCA_M_CH7_CA+;-;FBRCT3_CA+;-;ELCA_M_CH1_CA+;-;ELCA_M_CH3_CA+;-;ELCA_M_CH5_CA+;-;ELCA_M_CH7_CA+;-;FBRCT3_CA+;-;FBRCT4_CA+
+x;-;-;-;SSM02_CA+-;P3-12D;-;ELCA_M_CH1_CA-;-;ELCA_M_CH3_CA-;-;ELCA_M_CH5_CA-;-;ELCA_M_CH7_CA-;-;FBRCT3_CA-;-;ELCA_M_CH1_CA-;-;ELCA_M_CH3_CA-;-;ELCA_M_CH5_CA-;-;ELCA_M_CH7_CA-;-;FBRCT3_CA-;-;FBRCT4_CA-
+x;-;-;-;SSM02_CB+;P3-12B;-;ELCA_M_CH1_CB+;-;ELCA_M_CH3_CB+;-;ELCA_M_CH5_CB+;-;ELCA_M_CH7_CB+;-;FBRCT3_CB+;-;ELCA_M_CH1_CB+;-;ELCA_M_CH3_CB+;-;ELCA_M_CH5_CB+;-;ELCA_M_CH7_CB+;-;FBRCT3_CB+;-;FBRCT4_CB+
+x;-;-;-;SSM02_CB-;P3-12Z;-;ELCA_M_CH1_CB-;-;ELCA_M_CH3_CB-;-;ELCA_M_CH5_CB-;-;ELCA_M_CH7_CB-;-;FBRCT3_CB-;-;ELCA_M_CH1_CB-;-;ELCA_M_CH3_CB-;-;ELCA_M_CH5_CB-;-;ELCA_M_CH7_CB-;-;FBRCT3_CB-;-;FBRCT4_CB-
+-;SSM_30522_00;SSM03;F2;-;small stepper motor drives;ELCA_M_CH2;-;ELCA_M_CH4;-;ELCA_M_CH6;-;ELCA_M_CH8;-;FBRCT4;-;ELCA_M_CH2;-;ELCA_M_CH4;-;ELCA_M_CH6;-;ELCA_M_CH8;-;FBRCT4;-;FBRCT5;-
+x;-;-;-;SSM03_CA+;P3-14F;-;ELCA_M_CH2_CA+;-;ELCA_M_CH4_CA+;-;ELCA_M_CH6_CA+;-;ELCA_M_CH8_CA+;-;FBRCT4_CA+;-;ELCA_M_CH2_CA+;-;ELCA_M_CH4_CA+;-;ELCA_M_CH6_CA+;-;ELCA_M_CH8_CA+;-;FBRCT4_CA+;-;FBRCT5_CA+
+x;-;-;-;SSM03_CA+-;P3-14D;-;ELCA_M_CH2_CA-;-;ELCA_M_CH4_CA-;-;ELCA_M_CH6_CA-;-;ELCA_M_CH8_CA-;-;FBRCT4_CA-;-;ELCA_M_CH2_CA-;-;ELCA_M_CH4_CA-;-;ELCA_M_CH6_CA-;-;ELCA_M_CH8_CA-;-;FBRCT4_CA-;-;FBRCT5_CA-
+x;-;-;-;SSM03_CB+;P3-14B;-;ELCA_M_CH2_CB+;-;ELCA_M_CH4_CB+;-;ELCA_M_CH6_CB+;-;ELCA_M_CH8_CB+;-;FBRCT4_CB+;-;ELCA_M_CH2_CB+;-;ELCA_M_CH4_CB+;-;ELCA_M_CH6_CB+;-;ELCA_M_CH8_CB+;-;FBRCT4_CB+;-;FBRCT5_CB+
+x;-;-;-;SSM03_CB-;P3-14Z;-;ELCA_M_CH2_CB-;-;ELCA_M_CH4_CB-;-;ELCA_M_CH6_CB-;-;ELCA_M_CH8_CB-;-;FBRCT4_CB-;-;ELCA_M_CH2_CB-;-;ELCA_M_CH4_CB-;-;ELCA_M_CH6_CB-;-;ELCA_M_CH8_CB-;-;FBRCT4_CB-;-;FBRCT5_CB-
+-;SSM_30522_00;SSM04;F2;-;small stepper motor drives;EPR_MN_CH1;-;EPR_MN_CH3;-;EPR_MN_CH5;-;EPR_MN_CH7;-;ELCA_TF_CH1;-;EPR_MN_CH1;-;EPR_MN_CH3;-;EPR_MN_CH5;-;EPR_MN_CH7;-;ELCA_TF_CH1;-;FBRCT6;-
+x;-;-;-;SSM04_CA+;P3-16F;-;EPR_MN_CH1_CA+;-;EPR_MN_CH3_CA+;-;EPR_MN_CH5_CA+;-;EPR_MN_CH7_CA+;-;ELCA_TF_CH1_CA+;-;EPR_MN_CH1_CA+;-;EPR_MN_CH3_CA+;-;EPR_MN_CH5_CA+;-;EPR_MN_CH7_CA+;-;ELCA_TF_CH1_CA+;-;FBRCT6_CA+
+x;-;-;-;SSM04_CA+-;P3-16D;-;EPR_MN_CH1_CA-;-;EPR_MN_CH3_CA-;-;EPR_MN_CH5_CA-;-;EPR_MN_CH7_CA-;-;ELCA_TF_CH1_CA-;-;EPR_MN_CH1_CA-;-;EPR_MN_CH3_CA-;-;EPR_MN_CH5_CA-;-;EPR_MN_CH7_CA-;-;ELCA_TF_CH1_CA-;-;FBRCT6_CA-
+x;-;-;-;SSM04_CB+;P3-16B;-;EPR_MN_CH1_CB+;-;EPR_MN_CH3_CB+;-;EPR_MN_CH5_CB+;-;EPR_MN_CH7_CB+;-;ELCA_TF_CH1_CB+;-;EPR_MN_CH1_CB+;-;EPR_MN_CH3_CB+;-;EPR_MN_CH5_CB+;-;EPR_MN_CH7_CB+;-;ELCA_TF_CH1_CB+;-;FBRCT6_CB+
+x;-;-;-;SSM04_CB-;P3-16Z;-;EPR_MN_CH1_CB-;-;EPR_MN_CH3_CB-;-;EPR_MN_CH5_CB-;-;EPR_MN_CH7_CB-;-;ELCA_TF_CH1_CB-;-;EPR_MN_CH1_CB-;-;EPR_MN_CH3_CB-;-;EPR_MN_CH5_CB-;-;EPR_MN_CH7_CB-;-;ELCA_TF_CH1_CB-;-;FBRCT6_CB-
+-;SSM_30522_00;SSM05;F2;-;small stepper motor drives;EPR_MN_CH2;-;EPR_MN_CH4;-;EPR_MN_CH6;-;EPR_MN_CH8;-;ELCA_TF_CH2;-;EPR_MN_CH2;-;EPR_MN_CH4;-;EPR_MN_CH6;-;EPR_MN_CH8;-;ELCA_TF_CH2;-;-;-
+x;-;-;-;SSM05_CA+;P3-18F;-;EPR_MN_CH2_CA+;-;EPR_MN_CH4_CA+;-;EPR_MN_CH6_CA+;-;EPR_MN_CH8_CA+;-;ELCA_TF_CH2_CA+;-;EPR_MN_CH2_CA+;-;EPR_MN_CH4_CA+;-;EPR_MN_CH6_CA+;-;EPR_MN_CH8_CA+;-;ELCA_TF_CH2_CA+;-;-
+x;-;-;-;SSM05_CA+-;P3-18D;-;EPR_MN_CH2_CA-;-;EPR_MN_CH4_CA-;-;EPR_MN_CH6_CA-;-;EPR_MN_CH8_CA-;-;ELCA_TF_CH2_CA-;-;EPR_MN_CH2_CA-;-;EPR_MN_CH4_CA-;-;EPR_MN_CH6_CA-;-;EPR_MN_CH8_CA-;-;ELCA_TF_CH2_CA-;-;-
+x;-;-;-;SSM05_CB+;P3-18B;-;EPR_MN_CH2_CB+;-;EPR_MN_CH4_CB+;-;EPR_MN_CH6_CB+;-;EPR_MN_CH8_CB+;-;ELCA_TF_CH2_CB+;-;EPR_MN_CH2_CB+;-;EPR_MN_CH4_CB+;-;EPR_MN_CH6_CB+;-;EPR_MN_CH8_CB+;-;ELCA_TF_CH2_CB+;-;-
+x;-;-;-;SSM05_CB-;P3-18Z;-;EPR_MN_CH2_CB-;-;EPR_MN_CH4_CB-;-;EPR_MN_CH6_CB-;-;EPR_MN_CH8_CB-;-;ELCA_TF_CH2_CB-;-;EPR_MN_CH2_CB-;-;EPR_MN_CH4_CB-;-;EPR_MN_CH6_CB-;-;EPR_MN_CH8_CB-;-;ELCA_TF_CH2_CB-;-;-
+-;SSM_30522_00;SSM06;F2;-;small stepper motor drives;EPR_RN_LHS+RHS;-;-;-;-;-;-;-;ELCA_TF_CH3;-;EPR_RN_LHS+RHS;-;-;-;-;-;-;-;ELCA_TF_CH3;-;-;-
+x;-;-;-;SSM06_CA+;P3-20F;-;EPR_RN_LHS+RHS_CA+;-;-;-;-;-;-;-;ELCA_TF_CH3_CA+;-;EPR_RN_LHS+RHS_CA+;-;-;-;-;-;-;-;ELCA_TF_CH3_CA+;-;-
+x;-;-;-;SSM06_CA+-;P3-20D;-;EPR_RN_LHS+RHS_CA-;-;-;-;-;-;-;-;ELCA_TF_CH3_CA-;-;EPR_RN_LHS+RHS_CA-;-;-;-;-;-;-;-;ELCA_TF_CH3_CA-;-;-
+x;-;-;-;SSM06_CB+;P3-20B;-;EPR_RN_LHS+RHS_CB+;-;-;-;-;-;-;-;ELCA_TF_CH3_CB+;-;EPR_RN_LHS+RHS_CB+;-;-;-;-;-;-;-;ELCA_TF_CH3_CB+;-;-
+x;-;-;-;SSM06_CB-;P3-20Z;-;EPR_RN_LHS+RHS_CB-;-;-;-;-;-;-;-;ELCA_TF_CH3_CB-;-;EPR_RN_LHS+RHS_CB-;-;-;-;-;-;-;-;ELCA_TF_CH3_CB-;-;-
+-;SSM_30522_00;SSM07;F2;-;small stepper motor drives;EPR_RN_MID;-;PRA_M_CLMP;-;-;-;-;-;ELCA_TF_CH4;-;EPR_RN_MID;-;PRA_M_CLMP;-;-;-;-;-;ELCA_TF_CH4;-;-;-
+x;-;-;-;SSM07_CA+;P3-22F;-;EPR_RN_MID_CA+;-;PRA_M_CLMP_CA+;-;-;-;-;-;ELCA_TF_CH4_CA+;-;EPR_RN_MID_CA+;-;PRA_M_CLMP_CA+;-;-;-;-;-;ELCA_TF_CH4_CA+;-;-
+x;-;-;-;SSM07_CA+-;P3-22D;-;EPR_RN_MID_CA-;-;PRA_M_CLMP_CA-;-;-;-;-;-;ELCA_TF_CH4_CA-;-;EPR_RN_MID_CA-;-;PRA_M_CLMP_CA-;-;-;-;-;-;ELCA_TF_CH4_CA-;-;-
+x;-;-;-;SSM07_CB+;P3-22B;-;EPR_RN_MID_CB+;-;PRA_M_CLMP_CB+;-;-;-;-;-;ELCA_TF_CH4_CB+;-;EPR_RN_MID_CB+;-;PRA_M_CLMP_CB+;-;-;-;-;-;ELCA_TF_CH4_CB+;-;-
+x;-;-;-;SSM07_CB-;P3-22Z;-;EPR_RN_MID_CB-;-;PRA_M_CLMP_CB-;-;-;-;-;-;ELCA_TF_CH4_CB-;-;EPR_RN_MID_CB-;-;PRA_M_CLMP_CB-;-;-;-;-;-;ELCA_TF_CH4_CB-;-;-
+-;SSM_30522_00;SSM08;F2;-;small stepper motor drives;PFT_CH1;-;PFT_CH3;-;PFT_CH5;-;PFT_CH7;-;-;-;PFT_CH1;-;PFT_CH3;-;PFT_CH5;-;PFT_CH7;-;-;-;-;-
+x;-;-;-;SSM08_CA+;P3-24F;-;PFT_CH1_CA+;-;PFT_CH3_CA+;-;PFT_CH5_CA+;-;PFT_CH7_CA+;-;-;-;PFT_CH1_CA+;-;PFT_CH3_CA+;-;PFT_CH5_CA+;-;PFT_CH7_CA+;-;-;-;-
+x;-;-;-;SSM08_CA+-;P3-24D;-;PFT_CH1_CA-;-;PFT_CH3_CA-;-;PFT_CH5_CA-;-;PFT_CH7_CA-;-;-;-;PFT_CH1_CA-;-;PFT_CH3_CA-;-;PFT_CH5_CA-;-;PFT_CH7_CA-;-;-;-;-
+x;-;-;-;SSM08_CB+;P3-24B;-;PFT_CH1_CB+;-;PFT_CH3_CB+;-;PFT_CH5_CB+;-;PFT_CH7_CB+;-;-;-;PFT_CH1_CB+;-;PFT_CH3_CB+;-;PFT_CH5_CB+;-;PFT_CH7_CB+;-;-;-;-
+x;-;-;-;SSM08_CB-;P3-24Z;-;PFT_CH1_CB-;-;PFT_CH3_CB-;-;PFT_CH5_CB-;-;PFT_CH7_CB-;-;-;-;PFT_CH1_CB-;-;PFT_CH3_CB-;-;PFT_CH5_CB-;-;PFT_CH7_CB-;-;-;-;-
+-;SSM_30522_00;SSM09;F2;-;small stepper motor drives;PFT_CH2;-;PFT_CH4;-;PFT_CH6;-;PFT_CH8;-;-;-;PFT_CH2;-;PFT_CH4;-;PFT_CH6;-;PFT_CH8;-;-;-;-;-
+x;-;-;-;SSM09_CA+;P3-26F;-;PFT_CH2_CA+;-;PFT_CH4_CA+;-;PFT_CH6_CA+;-;PFT_CH8_CA+;-;-;-;PFT_CH2_CA+;-;PFT_CH4_CA+;-;PFT_CH6_CA+;-;PFT_CH8_CA+;-;-;-;-
+x;-;-;-;SSM09_CA+-;P3-26D;-;PFT_CH2_CA-;-;PFT_CH4_CA-;-;PFT_CH6_CA-;-;PFT_CH8_CA-;-;-;-;PFT_CH2_CA-;-;PFT_CH4_CA-;-;PFT_CH6_CA-;-;PFT_CH8_CA-;-;-;-;-
+x;-;-;-;SSM09_CB+;P3-26B;-;PFT_CH2_CB+;-;PFT_CH4_CB+;-;PFT_CH6_CB+;-;PFT_CH8_CB+;-;-;-;PFT_CH2_CB+;-;PFT_CH4_CB+;-;PFT_CH6_CB+;-;PFT_CH8_CB+;-;-;-;-
+x;-;-;-;SSM09_CB-;P3-26Z;-;PFT_CH2_CB-;-;PFT_CH4_CB-;-;PFT_CH6_CB-;-;PFT_CH8_CB-;-;-;-;PFT_CH2_CB-;-;PFT_CH4_CB-;-;PFT_CH6_CB-;-;PFT_CH8_CB-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;Large stepper motor;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;LSM26V_00;LSM00;F2;-;large stepper motor driver;FICT;-;ATI_RHS_MCT;-;ATI_MID1_MCT;-;-;-;ELSY_MID1;-;FICT;-;ATI_RHS_MCT;-;ATI_MID1_MCT;-;ATI_MID4_MCT;-;ELSY_MID1;-;ATI_LHS_MCT;-
+x;-;-;-;LSM00_CA+;P3-28F;-;FICT_CA+;-;ATI_RHS_MCT_CA+;-;ATI_MID1_MCT_CA+;-;-;-;ELSY_MID1_CA+;-;FICT_CA+;-;ATI_RHS_MCT_CA+;-;ATI_MID1_MCT_CA+;-;ATI_MID4_MCT_CA+;-;ELSY_MID1_CA+;-;ATI_LHS_MCT_CA+
+x;-;-;-;LSM00_CA-;P3-28D;-;FICT_CA-;-;ATI_RHS_MCT_CA-;-;ATI_MID1_MCT_CA-;-;-;-;ELSY_MID1_CA-;-;FICT_CA-;-;ATI_RHS_MCT_CA-;-;ATI_MID1_MCT_CA-;-;ATI_MID4_MCT_CA-;-;ELSY_MID1_CA-;-;ATI_LHS_MCT_CA-
+x;-;-;-;LSM00_CB+;P3-28B;-;FICT_CB+;-;ATI_RHS_MCT_CB+;-;ATI_MID1_MCT_CB+;-;-;-;ELSY_MID1_CB+;-;FICT_CB+;-;ATI_RHS_MCT_CB+;-;ATI_MID1_MCT_CB+;-;ATI_MID4_MCT_CB+;-;ELSY_MID1_CB+;-;ATI_LHS_MCT_CB+
+x;-;-;-;LSM00_CB-;P3-28Z;-;FICT_CB-;-;ATI_RHS_MCT_CB-;-;ATI_MID1_MCT_CB-;-;-;-;ELSY_MID1_CB-;-;FICT_CB-;-;ATI_RHS_MCT_CB-;-;ATI_MID1_MCT_CB-;-;ATI_MID4_MCT_CB-;-;ELSY_MID1_CB-;-;ATI_LHS_MCT_CB-
+-;LSM26V_00;LSM01;F2;-;large stepper motor driver;ELSY_LHS;-;-;-;ATI_MID2_MCT;-;-;-;ELSY_MID2;-;ELSY_LHS;-;-;-;ATI_MID2_MCT;-;ATI_MID5_MCT;-;ELSY_MID2;-;ATI_RHS_MCT;-
+x;-;-;-;LSM01_CA+;P3-30F;-;ELSY_LHS_CA+;-;-;-;ATI_MID2_MCT_CA+;-;-;-;ELSY_MID2_CA+;-;ELSY_LHS_CA+;-;-;-;ATI_MID2_MCT_CA+;-;ATI_MID5_MCT_CA+;-;ELSY_MID2_CA+;-;ATI_RHS_MCT_CA+
+x;-;-;-;LSM01_CA-;P3-30D;-;ELSY_LHS_CA-;-;-;-;ATI_MID2_MCT_CA-;-;-;-;ELSY_MID2_CA-;-;ELSY_LHS_CA-;-;-;-;ATI_MID2_MCT_CA-;-;ATI_MID5_MCT_CA-;-;ELSY_MID2_CA-;-;ATI_RHS_MCT_CA-
+x;-;-;-;LSM01_CB+;P3-30B;-;ELSY_LHS_CB+;-;-;-;ATI_MID2_MCT_CB+;-;-;-;ELSY_MID2_CB+;-;ELSY_LHS_CB+;-;-;-;ATI_MID2_MCT_CB+;-;ATI_MID5_MCT_CB+;-;ELSY_MID2_CB+;-;ATI_RHS_MCT_CB+
+x;-;-;-;LSM01_CB-;P3-30Z;-;ELSY_LHS_CB-;-;-;-;ATI_MID2_MCT_CB-;-;-;-;ELSY_MID2_CB-;-;ELSY_LHS_CB-;-;-;-;ATI_MID2_MCT_CB-;-;ATI_MID5_MCT_CB-;-;ELSY_MID2_CB-;-;ATI_RHS_MCT_CB-
+-;LSM26V_00;LSM02;F2;-;large stepper motor driver;ELSY_RHS;-;-;-;-;-;-;-;ELSY_MID3;-;ELSY_RHS;-;-;-;ATI_MID3_MCT;-;-;-;ELSY_MID3;-;ATI_MID1_MCT;-
+x;-;-;-;LSM02_CA+;P3-32F;-;ELSY_RHS_CA+;-;-;-;-;-;-;-;ELSY_MID3_CA+;-;ELSY_RHS_CA+;-;-;-;ATI_MID3_MCT_CA+;-;-;-;ELSY_MID3_CA+;-;ATI_MID1_MCT_CA+
+x;-;-;-;LSM02_CA-;P3-32D;-;ELSY_RHS_CA-;-;-;-;-;-;-;-;ELSY_MID3_CA-;-;ELSY_RHS_CA-;-;-;-;ATI_MID3_MCT_CA-;-;-;-;ELSY_MID3_CA-;-;ATI_MID1_MCT_CA-
+x;-;-;-;LSM02_CB+;P3-32B;-;ELSY_RHS_CB+;-;-;-;-;-;-;-;ELSY_MID3_CB+;-;ELSY_RHS_CB+;-;-;-;ATI_MID3_MCT_CB+;-;-;-;ELSY_MID3_CB+;-;ATI_MID1_MCT_CB+
+x;-;-;-;LSM02_CB-;P3-32Z;-;ELSY_RHS_CB-;-;-;-;-;-;-;-;ELSY_MID3_CB-;-;ELSY_RHS_CB-;-;-;-;ATI_MID3_MCT_CB-;-;-;-;ELSY_MID3_CB-;-;ATI_MID1_MCT_CB-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;Yellow: moved allocation cfr OMS;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;Orange: new VRN allocation due to VRN step 60 mm;-;-;-;-;-;-;-;-;-;-

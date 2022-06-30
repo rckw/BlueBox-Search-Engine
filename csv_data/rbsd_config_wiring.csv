@@ -1,0 +1,180 @@
+RBSD board;Type;Board Circuit;Fuse;Pinname;Description / Pin number;Optimax -i;RBSD(A);Optimax-i;RBSD(B);Optimax-i.1;RBSD(C);Optimax-i.2;RBSD(D);RBB01xx;RBSD(A).1;RBB01xx.1;RBSD(B).1;RBB01xx.2;RBSD(C).1;RBB01xx.3;RBSD(D).1;Gtmax-i / Gtmax;RBSD(A).2;Gtmax-i / Gtmax.1;RBSD(B).2;Gtmax-i / Gtmax.2;RBSD(C).2
+-;Type;Name;Fuse;Pinname;Desciption / Pin number;RBSD(A);-;RBSD(B);-;RBSD(C);-;RBSD(D);-;RBSD(A);-;RBSD(B);-;RBSD(C);-;RBSD(D);-;RBSD(A);-;RBSD(B);-;RBSD(C);-
+-;-;Large stepper motor;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;LSM26V_00;LSM00;F1;-;large stepper motor driver;QS_F1;-;QS_R1;-;QS_F5;-;ELSY_MID4;-;QS(A)_M1;-;QS(B)_M1;-;QS_F5;-;ELSY_MID4;-;QS_F1;-;QS_R1;-;QS_F5;-
+x;-;-;-;LSM00_CA+;P1-2F;-;QS_F1_CA+;-;QS_R1_CA+;-;QS_F5_CA+;-;ELSY_MID4_CA+;-;QS(A)_M1_CA+;-;QS(B)_M1_CA+;-;QS_F5_CA+;-;ELSY_MID4_CA+;-;QS_F1_CA+;-;QS_R1_CA+;-;QS_F5_CA+
+x;-;-;-;LSM00_CA-;P1-2D;-;QS_F1_CA-;-;QS_R1_CA-;-;QS_F5_CA-;-;ELSY_MID4_CA-;-;QS(A)_M1_CA-;-;QS(B)_M1_CA-;-;QS_F5_CA-;-;ELSY_MID4_CA-;-;QS_F1_CA-;-;QS_R1_CA-;-;QS_F5_CA-
+x;-;-;-;LSM00_CB+;P1-2B;-;QS_F1_CB+;-;QS_R1_CB+;-;QS_F5_CB+;-;ELSY_MID4_CB+;-;QS(A)_M1_CB+;-;QS(B)_M1_CB+;-;QS_F5_CB+;-;ELSY_MID4_CB+;-;QS_F1_CB+;-;QS_R1_CB+;-;QS_F5_CB+
+x;-;-;-;LSM00_CB-;P1-2Z;-;QS_F1_CB-;-;QS_R1_CB-;-;QS_F5_CB-;-;ELSY_MID4_CB-;-;QS(A)_M1_CB-;-;QS(B)_M1_CB-;-;QS_F5_CB-;-;ELSY_MID4_CB-;-;QS_F1_CB-;-;QS_R1_CB-;-;QS_F5_CB-
+-;LSM26V_00;LSM01;F1;-;large stepper motor driver;QS_F2;-;QS_R2;-;QS_F6;-;ELSY_MID5;-;QS(A)_M2;-;QS(B)_M2;-;QS_F6;-;ELSY_MID5;-;QS_F2;-;QS_R2;-;QS_F6;-
+x;-;-;-;LSM01_CA+;P1-6F;-;QS_F2_CA+;-;QS_R2_CA+;-;QS_F6_CA+;-;ELSY_MID5_CA+;-;QS(A)_M2_CA+;-;QS(B)_M2_CA+;-;QS_F6_CA+;-;ELSY_MID5_CA+;-;QS_F2_CA+;-;QS_R2_CA+;-;QS_F6_CA+
+x;-;-;-;LSM01_CA-;P1-6D;-;QS_F2_CA-;-;QS_R2_CA-;-;QS_F6_CA-;-;ELSY_MID5_CA-;-;QS(A)_M2_CA-;-;QS(B)_M2_CA-;-;QS_F6_CA-;-;ELSY_MID5_CA-;-;QS_F2_CA-;-;QS_R2_CA-;-;QS_F6_CA-
+x;-;-;-;LSM01_CB+;P1-6B;-;QS_F2_CB+;-;QS_R2_CB+;-;QS_F6_CB+;-;ELSY_MID5_CB+;-;QS(A)_M2_CB+;-;QS(B)_M2_CB+;-;QS_F6_CB+;-;ELSY_MID5_CB+;-;QS_F2_CB+;-;QS_R2_CB+;-;QS_F6_CB+
+x;-;-;-;LSM01_CB-;P1-6Z;-;QS_F2_CB-;-;QS_R2_CB-;-;QS_F6_CB-;-;ELSY_MID5_CB-;-;QS(A)_M2_CB-;-;QS(B)_M2_CB-;-;QS_F6_CB-;-;ELSY_MID5_CB-;-;QS_F2_CB-;-;QS_R2_CB-;-;QS_F6_CB-
+-;LSM26V_00;LSM02;F1;-;large stepper motor driver;QS_F3;-;QS_R3;-;QS_R5;-;ATI_MID2_MCT;-;QS(A)_M3;-;QS(B)_M3;-;QS_R5;-;ATI_MID2_MCT;-;QS_F3;-;QS_R3;-;QS_R5;-
+x;-;-;-;LSM02_CA+;P1-10F;-;QS_F3_CA+;-;QS_R3_CA+;-;QS_R5_CA+;-;ATI_MID2_MCT_CA+;-;QS(A)_M3_CA+;-;QS(B)_M3_CA+;-;QS_R5_CA+;-;ATI_MID2_MCT_CA+;-;QS_F3_CA+;-;QS_R3_CA+;-;QS_R5_CA+
+x;-;-;-;LSM02_CA-;P1-10D;-;QS_F3_CA-;-;QS_R3_CA-;-;QS_R5_CA-;-;ATI_MID2_MCT_CA-;-;QS(A)_M3_CA-;-;QS(B)_M3_CA-;-;QS_R5_CA-;-;ATI_MID2_MCT_CA-;-;QS_F3_CA-;-;QS_R3_CA-;-;QS_R5_CA-
+x;-;-;-;LSM02_CB+;P1-10B;-;QS_F3_CB+;-;QS_R3_CB+;-;QS_R5_CB+;-;ATI_MID2_MCT_CB+;-;QS(A)_M3_CB+;-;QS(B)_M3_CB+;-;QS_R5_CB+;-;ATI_MID2_MCT_CB+;-;QS_F3_CB+;-;QS_R3_CB+;-;QS_R5_CB+
+x;-;-;-;LSM02_CB-;P1-10Z;-;QS_F3_CB-;-;QS_R3_CB-;-;QS_R5_CB-;-;ATI_MID2_MCT_CB-;-;QS(A)_M3_CB-;-;QS(B)_M3_CB-;-;QS_R5_CB-;-;ATI_MID2_MCT_CB-;-;QS_F3_CB-;-;QS_R3_CB-;-;QS_R5_CB-
+-;LSM26V_00;LSM03;F1;-;large stepper motor driver;QS_F4;-;QS_R4;-;QS_R6;-;ATI_MID3_MCT;-;QS(A)_M4;-;QS(B)_M4;-;QS_R6;-;ATI_MID3_MCT;-;QS_F4;-;QS_R4;-;QS_R6;-
+x;-;-;-;LSM03_CA+;P1-14F;-;QS_F4_CA+;-;QS_R4_CA+;-;QS_R6_CA+;-;ATI_MID3_MCT_CA+;-;QS(A)_M4_CA+;-;QS(B)_M4_CA+;-;QS_R6_CA+;-;ATI_MID3_MCT_CA+;-;QS_F4_CA+;-;QS_R4_CA+;-;QS_R6_CA+
+x;-;-;-;LSM03_CA-;P1-14D;-;QS_F4_CA-;-;QS_R4_CA-;-;QS_R6_CA-;-;ATI_MID3_MCT_CA-;-;QS(A)_M4_CA-;-;QS(B)_M4_CA-;-;QS_R6_CA-;-;ATI_MID3_MCT_CA-;-;QS_F4_CA-;-;QS_R4_CA-;-;QS_R6_CA-
+x;-;-;-;LSM03_CB+;P1-14B;-;QS_F4_CB+;-;QS_R4_CB+;-;QS_R6_CB+;-;ATI_MID3_MCT_CB+;-;QS(A)_M4_CB+;-;QS(B)_M4_CB+;-;QS_R6_CB+;-;ATI_MID3_MCT_CB+;-;QS_F4_CB+;-;QS_R4_CB+;-;QS_R6_CB+
+x;-;-;-;LSM03_CB-;P1-14Z;-;QS_F4_CB-;-;QS_R4_CB-;-;QS_R6_CB-;-;ATI_MID3_MCT_CB-;-;QS(A)_M4_CB-;-;QS(B)_M4_CB-;-;QS_R6_CB-;-;ATI_MID3_MCT_CB-;-;QS_F4_CB-;-;QS_R4_CB-;-;QS_R6_CB-
+-;LSM26V_00;LSM04;F1;-;large stepper motor driver;ELSY_RHS;-;ELSY_MID1;-;ELSY_MID3;-;ATI_MID4_MCT;-;ELSY_RHS;-;ELSY_MID1;-;ELSY_MID3;-;ATI_MID4_MCT;-;ELSY_RHS;-;-;-;-;-
+x;-;-;-;LSM04_CA+;P1-18F;-;ELSY_RHS_CA+;-;ELSY_MID1_CA+;-;ELSY_MID3_CA+;-;ATI_MID4_MCT_CA+;-;ELSY_RHS_CA+;-;ELSY_MID1_CA+;-;ELSY_MID3_CA+;-;ATI_MID4_MCT_CA+;-;ELSY_RHS_CA+;-;-;-;-
+x;-;-;-;LSM04_CA-;P1-18D;-;ELSY_RHS_CA-;-;ELSY_MID1_CA-;-;ELSY_MID3_CA-;-;ATI_MID4_MCT_CA-;-;ELSY_RHS_CA-;-;ELSY_MID1_CA-;-;ELSY_MID3_CA-;-;ATI_MID4_MCT_CA-;-;ELSY_RHS_CA-;-;-;-;-
+x;-;-;-;LSM04_CB+;P1-18B;-;ELSY_RHS_CB+;-;ELSY_MID1_CB+;-;ELSY_MID3_CB+;-;ATI_MID4_MCT_CB+;-;ELSY_RHS_CB+;-;ELSY_MID1_CB+;-;ELSY_MID3_CB+;-;ATI_MID4_MCT_CB+;-;ELSY_RHS_CB+;-;-;-;-
+x;-;-;-;LSM04_CB-;P1-18Z;-;ELSY_RHS_CB-;-;ELSY_MID1_CB-;-;ELSY_MID3_CB-;-;ATI_MID4_MCT_CB-;-;ELSY_RHS_CB-;-;ELSY_MID1_CB-;-;ELSY_MID3_CB-;-;ATI_MID4_MCT_CB-;-;ELSY_RHS_CB-;-;-;-;-
+-;LSM26V_00;LSM05;F1;-;large stepper motor driver;ELSY_LHS;-;ELSY_MID2;-;3E_GlassSplit;-;FISP;-;ELSY_LHS;-;ELSY_MID2;-;3E_GlassSplit;-;FISP;-;ELSY_LHS;-;-;-;-;-
+x;-;-;-;LSM05_CA+;P1-22F;-;ELSY_LHS_CA+;-;ELSY_MID2_CA+;-;3E_GlassSplit_CA+;-;FISP_CA+;-;ELSY_LHS_CA+;-;ELSY_MID2_CA+;-;3E_GlassSplit_CA+;-;FISP_CA+;-;ELSY_LHS_CA+;-;-;-;-
+x;-;-;-;LSM05_CA-;P1-22D;-;ELSY_LHS_CA-;-;ELSY_MID2_CA-;-;3E_GlassSplit_CA-;-;FISP_CA-;-;ELSY_LHS_CA-;-;ELSY_MID2_CA-;-;3E_GlassSplit_CA-;-;FISP_CA-;-;ELSY_LHS_CA-;-;-;-;-
+x;-;-;-;LSM05_CB+;P1-22B;-;ELSY_LHS_CB+;-;ELSY_MID2_CB+;-;3E_GlassSplit_CB+;-;FISP_CB+;-;ELSY_LHS_CB+;-;ELSY_MID2_CB+;-;3E_GlassSplit_CB+;-;FISP_CB+;-;ELSY_LHS_CB+;-;-;-;-
+x;-;-;-;LSM05_CB-;P1-22Z;-;ELSY_LHS_CB-;-;ELSY_MID2_CB-;-;3E_GlassSplit_CB-;-;FISP_CB-;-;ELSY_LHS_CB-;-;ELSY_MID2_CB-;-;3E_GlassSplit_CB-;-;FISP_CB-;-;ELSY_LHS_CB-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;General purpose power out;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;OUT_ITS5215_00;OUT00;F2;-;uitgang high side en massa;VGRPCLMPCLN;-;VCLMPMTI;-;-;-;-;-;VGRPCLMPCLN;-;Grijperkoersverstelling?;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;OUT00;P3-2F;-;VGRPCLMPCLN+;-;VCLMPMTI+;-;-;-;-;-;VGRPCLMPCLN+;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;OUT00_GND;P3-2D;-;VGRPCLMPCLN_GND;-;VCLMPMTI_GND;-;-;-;-;-;VGRPCLMPCLN_GND;-;-;-;-;-;-;-;-;-;-;-;-
+-;OUT_ITS5215_00;OUT01;F2;-;uitgang high side en massa;VGRPCLN;-;-;-;-;-;-;-;VGRPCLN;-;Grijperkoersverstelling?;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;OUT01;P3-2B;-;VGRPCLN+;-;-;-;-;-;-;-;VGRPCLN+;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;OUT01_GND;P3-2Z;-;VGRPCLN_GND;-;-;-;-;-;-;-;VGRPCLN_GND;-;-;-;-;-;-;-;-;-;-;-;-
+-;OUT_ITS5215_00;OUT02;F2;-;uitgang high side en massa;SLEY_BLOWING;-;VCLN_O-LENO_LHS;-;-;-;-;-;SLEY_BLOWING;-;VCLN_O-LENO_LHS;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;OUT02;P3-4F;-;SLEY_BLOWING+;-;VCLN_O-LENO_LHS+;-;-;-;-;-;SLEY_BLOWING+;-;VCLN_O-LENO_LHS+;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;OUT02_GND;P3-4D;-;SLEY_BLOWING_GND;-;VCLN_O-LENO_LHS-;-;-;-;-;-;SLEY_BLOWING_GND;-;VCLN_O-LENO_LHS-;-;-;-;-;-;-;-;-;-;-
+-;OUT_ITS5215_00;OUT03;F2;-;uitgang high side en massa;-;-;VCLN_O-LENO_RHS;-;-;-;-;-;VCLMPMTI;-;VCLN_O-LENO_RHS;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;OUT03;P3-4B;-;-;-;VCLN_O-LENO_RHS+;-;-;-;-;-;VCLMPMTI+;-;VCLN_O-LENO_RHS+;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;OUT03_GND;P3-4Z;-;-;-;VCLN_O-LENO_RHS-;-;-;-;-;-;VCLMPMTI_GND;-;VCLN_O-LENO_RHS-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;Valve drivers;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;VALVE_00;V00;F2;-;valve driver;ECOFILL_4C_VCT;-;-;-;-;-;-;-;ECOFILL_4C_VCT;-;KarterLED ?;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;V00+;P3-30F;-;ECOFILL_4C_VCT+;-;-;-;-;-;-;-;ECOFILL_4C_VCT+;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;V00-;P3-30D;-;ECOFILL_4C_VCT-;-;-;-;-;-;-;-;ECOFILL_4C_VCT-;-;-;-;-;-;-;-;-;-;-;-;-
+-;VALVE_00;V01;F2;-;valve driver;-;-;-;-;-;-;-;-;-;-;KarterLED ?;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;V01+;P3-30B;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;V01-;P3-30Z;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;VALVE_00;V02;F2;-;valve driver;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;V02+;P3-32F;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;V02-;P3-32D;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;VALVE_00;V03;F2;-;valve driver;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;V03+;P3-32B;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;V03-;P3-32Z;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;General purpose digital in;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;IN_PNP_SG_00;IN00;-;-;ingang met pull down en 26V en massa;QS_PB;-;-;-;-;-;ELSY_MID4_PB;-;QS_PB;-;-;-;-;-;ELSY_MID4_PB;-;QS_PB;-;-;-;-;-
+x;-;-;-;IN00;P1-4D;-;QS_PB;-;-;-;-;-;ELSY_MID4_PB;-;QS_PB;-;-;-;-;-;ELSY_MID4_PB;-;QS_PB;-;-;-;-
+x;-;-;RT1;IN00_26V;P1-4F;-;QS_PB_26V;-;-;-;-;-;ELSY_MID4_PB_26V;-;QS_PB_26V;-;-;-;-;-;ELSY_MID4_PB_26V;-;QS_PB_26V;-;-;-;-
+x;-;-;-;IN00_GND;P1-4B;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;GND;P1-4Z;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;IN_PNP_SG_00;IN01;-;-;ingang met pull down en 26V en massa;-;-;-;-;-;-;ELSY_MID5_PB;-;-;-;-;-;-;-;ELSY_MID5_PB;-;-;-;-;-;-;-
+x;-;-;-;IN01;P1-8D;-;-;-;-;-;-;-;ELSY_MID5_PB;-;-;-;-;-;-;-;ELSY_MID5_PB;-;-;-;-;-;-
+x;-;-;RT1;IN01_26V;P1-8F;-;-;-;-;-;-;-;ELSY_MID5_PB_26V;-;-;-;-;-;-;-;ELSY_MID5_PB_26V;-;-;-;-;-;-
+x;-;-;-;IN01_GND;P1-8B;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;GND;P1-8Z;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;IN_PNP_SG_00;IN02;-;-;ingang met pull down en 26V en massa;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;IN02;P1-12D;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;RT1;IN02_26V;P1-12F;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;IN02_GND;P1-12B;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;GND;P1-12Z;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;IN_PNP_SG_00;IN03;-;-;ingang met pull down en 26V en massa;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;IN03;P1-16D;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;RT1;IN03_26V;P1-16F;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;IN03_GND;P1-16B;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;GND;P1-16Z;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;IN_PNP_SG_00;IN04;-;-;ingang met pull down en 26V en massa;ELSY_RHS_PB;-;ELSY_MID1_PB;-;ELSY_MID3_PB;-;-;-;ELSY_RHS_PB;-;ELSY_MID1_PB;-;ELSY_MID3_PB;-;-;-;ELSY_RHS_PB;-;-;-;-;-
+x;-;-;-;IN04;P1-20D;-;ELSY_RHS_PB;-;ELSY_MID1_PB;-;ELSY_MID3_PB;-;-;-;ELSY_RHS_PB;-;ELSY_MID1_PB;-;ELSY_MID3_PB;-;-;-;ELSY_RHS_PB;-;-;-;-
+x;-;-;RT1;IN04_26V;P1-20F;-;ELSY_RHS_PB_26V;-;ELSY_MID1_PB_26V;-;ELSY_MID3_PB_26V;-;-;-;ELSY_RHS_PB_26V;-;ELSY_MID1_PB_26V;-;ELSY_MID3_PB_26V;-;-;-;ELSY_RHS_PB_26V;-;-;-;-
+x;-;-;-;IN04_GND;P1-20B;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;GND;P1-20Z;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;IN_PNP_SG_00;IN05;-;-;ingang met pull down en 26V en massa;ELSY_LHS_PB;-;ELSY_MID2_PB;-;3E_GlassSplit_PB;-;-;-;ELSY_LHS_PB;-;ELSY_MID2_PB;-;3E_GlassSplit_PB;-;-;-;ELSY_LHS_PB;-;-;-;-;-
+x;-;-;-;IN05;P1-24D;-;ELSY_LHS_PB;-;ELSY_MID2_PB;-;3E_GlassSplit_PB;-;-;-;ELSY_LHS_PB;-;ELSY_MID2_PB;-;3E_GlassSplit_PB;-;-;-;ELSY_LHS_PB;-;-;-;-
+x;-;-;RT1;IN05_26V;P1-24F;-;ELSY_LHS_PB_26V;-;ELSY_MID2_PB_26V;-;3E_GlassSplit_PB_26V;-;-;-;ELSY_LHS_PB_26V;-;ELSY_MID2_PB_26V;-;3E_GlassSplit_PB_26V;-;-;-;ELSY_LHS_PB_26V;-;-;-;-
+x;-;-;-;IN05_GND;P1-24B;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;GND;P1-24Z;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;IN_PNP_SG_01;IN06;-;-;ingang met pull down en 26V en massa (fast);DTLS_LHS_UP;-;-;-;-;-;-;-;DTLS_LHS_UP;-;-;-;-;-;-;-;BOBRK1;-;BOBRK5;-;BOBRK9;-
+x;-;-;-;IN06;P1-26D;-;DTLS_LHS_UP;-;-;-;-;-;-;-;DTLS_LHS_UP;-;-;-;-;-;-;-;BOBRK1;-;BOBRK5;-;BOBRK9
+x;-;-;RT2;IN06_26V;P1-26F;-;DTLS_LHS_UP_26V;-;-;-;-;-;-;-;DTLS_LHS_UP_26V;-;-;-;-;-;-;-;BOBRK1_26V;-;-;-;BOBRK9_26V
+x;-;-;-;IN06_GND;P1-26B;-;DTLS_LHS_UP_GND;-;-;-;-;-;-;-;DTLS_LHS_UP_GND;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;GND;P1-26Z;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;IN_PNP_SG_01;IN07;-;-;ingang met pull down en 26V en massa (fast);DTLS_LHS_LOW;-;-;-;-;-;-;-;DTLS_LHS_LOW;-;-;-;-;-;-;-;BOBRK2;-;BOBRK6;-;BOBRK10;-
+x;-;-;-;IN07;P1-28D;-;DTLS_LHS_LOW;-;-;-;-;-;-;-;DTLS_LHS_LOW;-;-;-;-;-;-;-;BOBRK2;-;BOBRK6;-;BOBRK10
+x;-;-;RT2;IN07_26V;P1-28F;-;DTLS_LHS_LOW_26V;-;-;-;-;-;-;-;DTLS_LHS_LOW_26V;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;IN07_GND;P1-28B;-;DTLS_LHS_LOW_GND;-;-;-;-;-;-;-;DTLS_LHS_LOW_GND;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;GND;P1-28Z;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;IN_PNP_SG_01;IN08;-;-;ingang met pull down en 26V en massa (fast);DTLS_RHS_UP;-;-;-;-;-;-;-;DTLS_RHS_UP;-;-;-;-;-;-;-;BOBRK3;-;BOBRK7;-;BOBRK11;-
+x;-;-;-;IN08;P1-30D;-;DTLS_RHS_UP;-;-;-;-;-;-;-;DTLS_RHS_UP;-;-;-;-;-;-;-;BOBRK3;-;BOBRK7;-;BOBRK11
+x;-;-;RT2;IN08_26V;P1-30F;-;DTLS_RHS_UP_26V;-;-;-;-;-;-;-;DTLS_RHS_UP_26V;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;IN08_GND;P1-30B;-;DTLS_RHS_UP_GND;-;-;-;-;-;-;-;DTLS_RHS_UP_GND;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;GND;P1-30Z;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;IN_PNP_SG_01;IN09;-;-;ingang met pull down en 26V en massa (fast);DTLS_RHS_LOW;-;-;-;-;-;-;-;DTLS_RHS_LOW;-;-;-;-;-;-;-;BOBRK4;-;BOBRK8;-;BOBRK12;-
+x;-;-;-;IN09;P1-32D;-;DTLS_RHS_LOW;-;-;-;-;-;-;-;DTLS_RHS_LOW;-;-;-;-;-;-;-;BOBRK4;-;BOBRK8;-;BOBRK12
+x;-;-;RT2;IN09_26V;P1-32F;-;DTLS_RHS_LOW_26V;-;-;-;-;-;-;-;DTLS_RHS_LOW_26V;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;IN09_GND;P1-32B;-;DTLS_RHS_LOW_GND;-;-;-;-;-;-;-;DTLS_RHS_LOW_GND;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;GND;P1-32Z;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;DTTH;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;DTTH_555_00;DTTH00;-;-;NTC ingang ;DTTHCB_LHS_UP;-;-;-;-;-;-;-;DTTHCB_LHS_UP;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;DTTH00+;P3-10F;-;DTTHCB_LHS_UP+;-;-;-;-;-;-;-;DTTHCB_LHS_UP+;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;DTTH00-;P3-10D;-;DTTHCB_LHS_UP-;-;-;-;-;-;-;-;DTTHCB_LHS_UP-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;DTTH_555_00;DTTH01;-;-;NTC ingang ;DTTHCB_LHS_LOW;-;-;-;-;-;-;-;DTTHCB_LHS_LOW;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;DTTH01+;P3-10B;-;DTTHCB_LHS_LOW+;-;-;-;-;-;-;-;DTTHCB_LHS_LOW+;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;DTTH01-;P3-10Z;-;DTTHCB_LHS_LOW-;-;-;-;-;-;-;-;DTTHCB_LHS_LOW-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;DTTH_555_00;DTTH02;-;-;NTC ingang ;DTTHCB_RHS_UP;-;-;-;-;-;-;-;DTTHCB_RHS_UP;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;DTTH02+;P3-12F;-;DTTHCB_RHS_UP+;-;-;-;-;-;-;-;DTTHCB_RHS_UP+;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;DTTH02-;P3-12D;-;DTTHCB_RHS_UP-;-;-;-;-;-;-;-;DTTHCB_RHS_UP-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;DTTH_555_00;DTTH03;-;-;NTC ingang ;DTTHCB_RHS_LOW;-;-;-;-;-;-;-;DTTHCB_RHS_LOW;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;DTTH03+;P3-12B;-;DTTHCB_RHS_LOW+;-;-;-;-;-;-;-;DTTHCB_RHS_LOW+;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;DTTH03-;P3-12Z;-;DTTHCB_RHS_LOW-;-;-;-;-;-;-;-;DTTHCB_RHS_LOW-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;PX;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;IN_PX8V_00;PX00;-;-;PX ingang en 8V;PX_RSM_LHS;-;-;-;-;-;-;-;PX_RSM_LHS;-;Grijperkoersverstelling?;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;PX00;P3-14D;-;PX_RSM_LHS;-;-;-;-;-;-;-;PX_RSM_LHS;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;PX00_8V;P3-14F;-;PX_RSM_LHS_8V;-;-;-;-;-;-;-;PX_RSM_LHS_8V;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;IN_PX8V_00;PX01;-;-;PX ingang en 8V;PX_RSM_RHS;-;-;-;-;-;-;-;PX_RSM_RHS;-;Grijperkoersverstelling?;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;PX01;P3-14Z;-;PX_RSM_RHS;-;-;-;-;-;-;-;PX_RSM_RHS;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;PX01_8V;P3-14B;-;PX_RSM_RHS_8V;-;-;-;-;-;-;-;PX_RSM_RHS_8V;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;LOCAN  on back side;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;Quadrature;-;-;Quadrature;-;-;-;-;-;-;-;-;LOCAN;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;POS_A_H;P3-8F;-;-;-;-;-;-;-;-;-;POS_A_H;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;POS_A_L;P3-8D;-;-;-;-;-;-;-;-;-;POS_A_L;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;POS_B_H;P3-8B;-;-;-;-;-;-;-;-;-;POS_B_H;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;POS_B_L;P3-8Z;-;-;-;-;-;-;-;-;-;POS_B_L;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;Digital output;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;DIG_OUT00;-;-;Digital OUT with 26V (100 mA) and GND;-;-;-;-;-;-;-;-;OLSTR;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;DIG_OUT_00;-;RT4;DIG_OUT00_26V;P3-24F;-;-;-;-;-;-;-;-;-;OLSTR_26V;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;DIG_OUT00;P3-24D;-;-;-;-;-;-;-;-;-;OLSTR;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;DIG_OUT00_GND;P3-24Z;-;-;-;-;-;-;-;-;-;OLSTR_GND;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;Filling detector;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;FD_00;FD;-;-;-;FD1;-;-;-;FD2;-;-;-;FD1;-;-;-;FD2;-;-;-;FD1;-;-;-;FD2;-
+x;-;-;RT3;FD_26V;P3-26F;-;FD1_26V;-;-;-;FD2_26V;-;-;-;FD1_26V;-;-;-;FD2_26V;-;-;-;FD1_26V;-;-;-;FD2_26V
+x;-;-;-;FD_GND;P3-26Z;-;FD1_GND;-;-;-;FD2_GND;-;-;-;FD1_GND;-;-;-;FD2_GND;-;-;-;FD1_GND;-;-;-;FD2_GND
+x;-;-;-;FD_GAIN;P3-26D;-;FD1_GAIN;-;-;-;FD2_GAIN;-;-;-;FD1_GAIN;-;-;-;FD2_GAIN;-;-;-;FD1_GAIN;-;-;-;FD2_GAIN
+x;-;-;-;FD_IN;P3-26B;-;FD1_IN;-;-;-;FD2_IN;-;-;-;FD1_IN;-;-;-;FD2_IN;-;-;-;FD1_IN;-;-;-;FD2_IN
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;Brushless DC motor;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;BLDC_00;BLDC;F2;-;-;EDC;-;-;-;-;-;-;-;EDC;-;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;BLDC_A;P3-28F;-;EDC_A;-;-;-;-;-;-;-;EDC_A;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;BLDC_B;P3-28D;-;EDC_B;-;-;-;-;-;-;-;EDC_B;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;BLDC_C;P3-28B;-;EDC_C;-;-;-;-;-;-;-;EDC_C;-;-;-;-;-;-;-;-;-;-;-;-
+x;-;-;-;GND;P3-28Z;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;Small stepper motor;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;SSM_30522_00;SSM00;F2;-;-;-;-;FBRCT1;-;-;-;-;-;-;-;FBRCT1;-;-;-;-;-;FBRCT1;-;FBRCT2;-;FBRCT3;-
+x;-;-;-;SSM00_CA+;P3-6F;-;-;-;FBRCT1_CA+;-;-;-;-;-;-;-;FBRCT1_CA+;-;-;-;-;-;FBRCT1_CA+;-;FBRCT2_CA+;-;FBRCT3_CA+
+x;-;-;-;SSM00_CA+-;P3-6D;-;-;-;FBRCT1_CA-;-;-;-;-;-;-;-;FBRCT1_CA-;-;-;-;-;-;FBRCT1_CA-;-;FBRCT2_CA-;-;FBRCT3_CA-
+x;-;-;-;SSM00_CB+;P3-6B;-;-;-;FBRCT1_CB+;-;-;-;-;-;-;-;FBRCT1_CB+;-;-;-;-;-;FBRCT1_CB+;-;FBRCT2_CB+;-;FBRCT3_CB+
+x;-;-;-;SSM00_CB-;P3-6Z;-;-;-;FBRCT1_CB-;-;-;-;-;-;-;-;FBRCT1_CB-;-;-;-;-;-;FBRCT1_CB-;-;FBRCT2_CB-;-;FBRCT3_CB-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;Gtmax difference against Optimax-i;-;-;-;-;-
